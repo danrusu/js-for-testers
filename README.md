@@ -1,6 +1,6 @@
 # js-for-testers
 
-Explore, collaborate and learn together.
+**_Explore, collaborate and learn together._**
 
 ```text
 “When you’re curious, you find lots of interesting things to do.”
