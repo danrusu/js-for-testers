@@ -44,7 +44,7 @@
 
 #### 3.5. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
-#### 3.5. [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+#### 3.6. [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 ### 4. Resources
 
