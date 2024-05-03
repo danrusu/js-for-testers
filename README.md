@@ -9,7 +9,7 @@
 
 ## Goal: Build some useful skills and have fun
 
-![it works, why?](./resources/works_why.jpg)
+![it works, why?](./resource/image/works_why.jpg)
 
 **Topics:**
 
