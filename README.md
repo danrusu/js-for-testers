@@ -35,6 +35,6 @@
 
 7 Monthly sessions of 2 hours
 
-| #   | Date       | Title                                                 | Topics                                                     |
-| --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------------- |
-| 1   | 08.05.2024 | [Let's speak JS](./src/sessions//session-1/README.md) | Chrome DevTools (Console, Snippets), JS introduction, HTML |
+| #   | Date       | Title                                                 | Topics                                               |
+| --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------- |
+| 1   | 08.05.2024 | [Let's speak JS](./src/sessions//session-1/README.md) | Chrome DevTools (Console, Snippets), JS introduction |
