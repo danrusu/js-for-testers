@@ -12,7 +12,6 @@
 - Chrome DevTools
   - Console
   - Sources/Snippets
-- HTML
 - JS introduction
   - Primitives
   - Typeof
@@ -30,24 +29,22 @@
 - [Console](https://developer.chrome.com/docs/devtools/console)
 - [Sources/Snippets](https://developer.chrome.com/docs/devtools/javascript/snippets)
 
-### 2. HTML
+### 2. JS introduction
 
-### 3. JS introduction
+#### 2.1. [Primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
 
-#### 3.1. [Primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+#### 2.2. [Typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 
-#### 3.2. [Typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+#### 2.3. [console.log](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static)
 
-#### 3.3. [console.log](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static)
+#### 2.4. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
-#### 3.4. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+#### 2.5. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
-#### 3.5. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+#### 2.6. [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
-#### 3.6. [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
-
-### 4. Resources
+### 3. Resources
 
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-### 5. Q&A
+### 4. Q&A
