@@ -37,4 +37,4 @@
 
 | #   | Date       | Title                                                 | Topics                                                     |
 | --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------------- |
-| 1   | 03.04.2024 | [Let's speak JS](./src/sessions//session-1/README.md) | Chrome DevTools (Console, Snippets), JS introduction, HTML |
+| 1   | 08.05.2024 | [Let's speak JS](./src/sessions//session-1/README.md) | Chrome DevTools (Console, Snippets), JS introduction, HTML |
