@@ -19,7 +19,7 @@
   - console.log
   - JSON
   - Functions
-  - Objects
+  - Object
 - Resources
 - Q&A
 
