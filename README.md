@@ -37,4 +37,12 @@
 
 | #   | Date       | Title                                                 | Topics                                               |
 | --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------- |
-| 1   | 08.05.2024 | [Let's speak JS](./src/sessions//session-1/README.md) | Chrome DevTools (Console, Snippets), JS introduction |
+| 1   | 14.05.2024 | [Let's speak JS](./src/sessions//session-1/README.md) | Chrome DevTools (Console, Snippets), JS introduction |
+
+### 3. Resource
+
+- [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+- [W3Schools](https://www.w3schools.com/js/)
+
+- [Eloquent JavaScript](https://eloquentjavascript.net/)
