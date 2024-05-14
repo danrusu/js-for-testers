@@ -5,7 +5,7 @@
 - Cristopher Columbus
 ```
 
-![JS try catch](../../../resource/image/js_try_catch.jpg)
+![JS try catch](../../../resource/image/works_why.jpg)
 
 ## Content
 

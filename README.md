@@ -7,9 +7,7 @@
 - Walt Disney
 ```
 
-## Goal: Build some useful skills and have fun
-
-![it works, why?](./resource/image/works_why.jpg)
+## Goal: Build some useful skills and have fun.
 
 **Topics:**
 
