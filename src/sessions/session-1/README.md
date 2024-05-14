@@ -7,21 +7,6 @@
 
 ![JS try catch](../../../resource/image/js_try_catch.jpg)
 
-## Topics
-
-- Chrome DevTools
-  - Console
-  - Sources/Snippets
-- JS introduction
-  - Primitives
-  - Typeof
-  - console.log
-  - JSON
-  - Functions
-  - Object
-- Resources
-- Q&A
-
 ## Content
 
 ### 1. [Chrome DevTools](https://developer.chrome.com/docs/devtools)
