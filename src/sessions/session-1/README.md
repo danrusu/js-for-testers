@@ -26,7 +26,7 @@ age = age++;
 const id = 1111; // you cannot reassign id
 //id = 1112; // uncomment and try, it will throw TypeError: Assignment to constant variable
 
-var isEmployed = true; // you can reassign isEmployed
+var isEmployed = true; // you can reassign isEmployed, declaration is hoisted
 isEmployed = true;
 ```
 
