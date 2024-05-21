@@ -37,11 +37,14 @@
 | --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------- |
 | 1   | 21.05.2024 | [Let's speak JS](./src/sessions//session-1/README.md) | Chrome DevTools (Console, Snippets), JS introduction |
 
-### 3. Resource
+### 3. [Events](./events.md)
+
+### 4. Resource
 
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 - Chrome DevTools
+
   - [Documentation](https://developer.chrome.com/docs/devtools)
   - [Developer news - Jecelyn Yeen](https://www.linkedin.com/in/jecfish/)
 
