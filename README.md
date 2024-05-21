@@ -41,6 +41,10 @@
 
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+- Chrome DevTools
+  - [Documentation](https://developer.chrome.com/docs/devtools)
+  - [Developer news - Jecelyn Yeen](https://www.linkedin.com/in/jecfish/)
+
 - [W3Schools](https://www.w3schools.com/js/)
 
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
