@@ -5,7 +5,7 @@
 - Cristopher Columbus
 ```
 
-![JS try catch](../../../resource/image/works_why.jpg)
+![](../../../resource/image/works_why.jpg)
 
 ## Content
 
@@ -24,15 +24,21 @@
 #### 2.3. [Typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 
 ```javascript
-const name = 'John';
+let name = 'John Doe';
+
 let age = 30;
+
 let isEmployed = true;
+
 let salary;
+
 const obj = null;
+
 const job = {
   title: 'qa',
   level: 5,
 };
+
 const jobs = ['dev', 'qa', 'dev-ops'];
 
 logTable({
@@ -45,16 +51,18 @@ logTable({
   jobs
 });
 
-function Info(name, value) {
-  this.name = name;
-  this.value = value;
-  this.typeof = typeof value;
-}
-
 function logTable(obj) {
-  const processedObj = Object.entries(obj)
+  const processedObj = Object
+    .entries(obj)
     .map(([key,val]) => new Info(key,val));
+  
   console.table(processedObj);
+
+  function Info(name, value) {
+    this.name = name;
+    this.value = value;
+    this.typeof = typeof value;
+  }  
 }
 ```
 
