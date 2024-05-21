@@ -19,9 +19,7 @@
 
 #### 2.1. [console.log](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static)
 
-#### 2.2. [Primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
-
-#### 2.3. [Typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+#### 2.2. [Primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) & [Typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 
 ```javascript
 let name = 'John Doe';
@@ -66,13 +64,13 @@ function logTable(obj) {
 }
 ```
 
-#### 2.4. [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+#### 2.3. [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
-#### 2.5. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+#### 2.4. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
-#### 2.6. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+#### 2.5. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
-#### 2.7. [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+#### 2.6. [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 ### 3. Resources
 
