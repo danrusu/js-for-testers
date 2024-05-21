@@ -105,6 +105,29 @@ function logTable(obj) {
 
 #### 2.3. [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
+```javascript
+const text = 'The quick brown fox jumps over a lazy dog';
+const message = "  Hello world!  ";
+const colors = `
+- red
+- green
+- blue`;
+
+console.log('text: ', text);
+console.log('text length: ', text.length);
+console.log('message: ', message);
+console.log('colors:', colors);
+
+const letters = text.split('');
+console.log('letters: ', letters);
+
+const words = text.split(' ');
+console.log('words: ', words);
+
+console.log(message.trim().toLowerCase());
+console.log(colors.toUpperCase());
+```
+
 #### 2.4. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
 ```javascript
@@ -130,7 +153,36 @@ console.log(newUserFromUserStringified);
 
 #### 2.5. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
+```javascript
+function double(nr) {
+  return nr * 2;
+}
+
+const doubleNr = nr => nr * 2; 
+
+console.log(double(100));
+console.log(doubleNr(100));
+message('Let\'s learn more JS!');
+
+function message(msg){
+  alert(msg);
+}
+```
+
 #### 2.6. [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+
+```javascript
+const employee = {
+  firstName: 'Kevin',
+  lastName: 'Jones',
+  age: 30,
+  isEmployed: false,  
+};
+
+console.log(Object.keys(employee));
+console.log(Object.values(employee));
+console.log(Object.entries(employee));
+```
 
 ### 3. Resources
 
