@@ -23,6 +23,41 @@
 
 #### 2.3. [Typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 
+```javascript
+const name = 'John';
+let age = 30;
+let isEmployed = true;
+let salary;
+const obj = null;
+const job = {
+  title: 'qa',
+  level: 5,
+};
+const jobs = ['dev', 'qa', 'dev-ops'];
+
+logTable({
+  name,
+  age,
+  isEmployed,
+  salary,
+  obj,
+  job,
+  jobs
+});
+
+function Info(name, value) {
+  this.name = name;
+  this.value = value;
+  this.typeof = typeof value;
+}
+
+function logTable(obj) {
+  const processedObj = Object.entries(obj)
+    .map(([key,val]) => new Info(key,val));
+  console.table(processedObj);
+}
+```
+
 #### 2.4. [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 #### 2.5. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
