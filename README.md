@@ -14,7 +14,7 @@
 - Basic coding skills, using JavaScript
 - Chrome Dev Tools
 - VS Code, Node.js, npm
-- Git, Markdown
+- Git, Github, Markdown
 - Code quality - principles (DRY, KISS, YAGNI), tools
 - Automation
 - Web pages - HTML, CSS
