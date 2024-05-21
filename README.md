@@ -14,13 +14,13 @@
 - Basic coding skills, using JavaScript
 - Chrome Dev Tools
 - VS Code, Node.js, npm
-- Git, Github, Markdown
+- Git, Github, Git Bash, Markdown
+- Pipeline - GitHub Actions and Workflows, Docker, Bash
 - Code quality - principles (DRY, KISS, YAGNI), tools
-- Automation
 - Web pages - HTML, CSS
 - Test framework - Mocha/Chai
+- Automation
 - Tools: Postman, Cypress, Playwright
-- Pipeline - GitHub Actions and Workflows, Docker, Bash
 
 `PS. This series is more a teaser than an end to end training.`
 
