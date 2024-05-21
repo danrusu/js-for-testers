@@ -19,6 +19,45 @@
 
 #### 2.1. [console.log](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static)
 
+```javascript
+/*
+Car info:
+Name: Porsche
+Model: 711
+Is diesel: no
+Engine:
+  capacicy: 2000
+  power: 300 hp
+Available colors: red, green, orange
+*/
+
+const name = 'Porsche';
+const model = '711';
+const isDiesel = false;
+const engine = {
+  capacity: 2000,
+  hp: 300,
+};
+const colors = ['red', 'green', 'orange'];
+
+const myCar = {
+  name,
+  model,
+  'is diesel': isDiesel,
+  engine,
+  colors
+};
+
+console.log('Car info (prettified):', JSON.stringify(myCar, null, 2));
+
+// access object properties
+console.log('Car\'s name: ', myCar.name);
+console.log('Car\'s engine capacity: ', myCar.engine.capacity);
+console.log('Is diesel: ', myCar['is diesel']);
+console.log('Available colors count: ', myCar.colors.length);
+console.log('Second available color: ', myCar.colors[1]);
+```
+
 #### 2.2. [Primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) & [Typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 
 ```javascript
@@ -67,6 +106,27 @@ function logTable(obj) {
 #### 2.3. [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 #### 2.4. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+
+```javascript
+const user = {
+  name: 'Jane Doe',
+  age: 25,  
+  isEmployed: true,
+  role: undefined,
+  job: null,
+  skills: ['JavaScript', 'Cypress', 'Selenium'],  
+  helloMessage: function(){ console.log('Hello, I am Jane Doe.'); }
+};
+
+const userStringified = JSON.stringify(user, null, 2); // string (it strips undefined and functions values)
+
+console.log(userStringified);
+
+const newUserFromUserStringified = JSON.parse(userStringified); // object
+
+console.log(newUserFromUserStringified);
+```
+
 
 #### 2.5. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
