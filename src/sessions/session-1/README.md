@@ -17,6 +17,19 @@
 
 ### 2. JS introduction
 
+```javascript
+// Variables definitions: let and const are block scoped, var is function scoped.
+let age; // undefined, you can reassign name
+age = 30;
+age = age++;
+
+const id = 1111; // you cannot reassign id
+//id = 1112; // uncomment and try, it will throw TypeError: Assignment to constant variable
+
+var isEmployed = true; // you can reassign isEmployed
+isEmployed = true;
+```
+
 #### 2.1. [console.log](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static)
 
 ```javascript
