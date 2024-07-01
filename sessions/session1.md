@@ -5,7 +5,7 @@
 - Cristopher Columbus
 ```
 
-![](../../../resource/image/works_why.jpg)
+![](../resource/image/works_why.jpg)
 
 ## Content
 
@@ -58,14 +58,14 @@ const myCar = {
   model,
   'is diesel': isDiesel,
   engine,
-  colors
+  colors,
 };
 
 console.log('Car info (prettified):', JSON.stringify(myCar, null, 2));
 
 // access object properties
-console.log('Car\'s name: ', myCar.name);
-console.log('Car\'s engine capacity: ', myCar.engine.capacity);
+console.log("Car's name: ", myCar.name);
+console.log("Car's engine capacity: ", myCar.engine.capacity);
 console.log('Is diesel: ', myCar['is diesel']);
 console.log('Available colors count: ', myCar.colors.length);
 console.log('Second available color: ', myCar.colors[1]);
@@ -98,21 +98,21 @@ logTable({
   salary,
   obj,
   job,
-  jobs
+  jobs,
 });
 
 function logTable(obj) {
-  const processedObj = Object
-    .entries(obj)
-    .map(([key,val]) => new Info(key,val));
-  
+  const processedObj = Object.entries(obj).map(
+    ([key, val]) => new Info(key, val),
+  );
+
   console.table(processedObj);
 
   function Info(name, value) {
     this.name = name;
     this.value = value;
     this.typeof = typeof value;
-  }  
+  }
 }
 ```
 
@@ -120,7 +120,7 @@ function logTable(obj) {
 
 ```javascript
 const text = 'The quick brown fox jumps over a lazy dog';
-const message = "  Hello world!  ";
+const message = '  Hello world!  ';
 const colors = `
 - red
 - green
@@ -146,12 +146,14 @@ console.log(colors.toUpperCase());
 ```javascript
 const user = {
   name: 'Jane Doe',
-  age: 25,  
+  age: 25,
   isEmployed: true,
   role: undefined,
   job: null,
-  skills: ['JavaScript', 'Cypress', 'Selenium'],  
-  helloMessage: function(){ console.log('Hello, I am Jane Doe.'); }
+  skills: ['JavaScript', 'Cypress', 'Selenium'],
+  helloMessage: function () {
+    console.log('Hello, I am Jane Doe.');
+  },
 };
 
 const userStringified = JSON.stringify(user, null, 2); // string (it strips undefined and functions values)
@@ -163,7 +165,6 @@ const newUserFromUserStringified = JSON.parse(userStringified); // object
 console.log(newUserFromUserStringified);
 ```
 
-
 #### 2.5. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 ```javascript
@@ -171,13 +172,13 @@ function double(nr) {
   return nr * 2;
 }
 
-const doubleNr = nr => nr * 2; 
+const doubleNr = nr => nr * 2;
 
 console.log(double(100));
 console.log(doubleNr(100));
-message('Let\'s learn more JS!');
+message("Let's learn more JS!");
 
-function message(msg){
+function message(msg) {
   alert(msg);
 }
 ```
@@ -189,7 +190,7 @@ const employee = {
   firstName: 'Kevin',
   lastName: 'Jones',
   age: 30,
-  isEmployed: false,  
+  isEmployed: false,
 };
 
 console.log(Object.keys(employee));
