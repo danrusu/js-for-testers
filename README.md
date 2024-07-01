@@ -35,7 +35,8 @@
 
 | #   | Date       | Title                                                 | Topics                                               |
 | --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------- |
-| 1   | 21.05.2024 | [Let's speak JS](./src/sessions//session-1/README.md) | Chrome DevTools (Console, Snippets), JS introduction |
+| 1   | 21.05.2024 | [Let's speak JS](./src/sessions/session-1/README.md)  | Chrome DevTools (Console, Snippets), JS introduction |
+| 2   | 23.07.2024 | [Data processing](./src/sessions/session-2/README.md) | Arrays, Loops, Functions                             |
 
 ### 3. [Events](./events.md)
 
