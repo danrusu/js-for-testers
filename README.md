@@ -22,7 +22,8 @@
 - Automation
 - Tools: Postman, Cypress, Playwright
 
-`PS. This series is more a teaser than an end to end training.`
+`PS. This series is more a teaser than an end to end training. 
+Everything that I will present is prefixed with IMHO.`
 
 ### 1. Prerequisites
 
