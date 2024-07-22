@@ -108,6 +108,7 @@ function logTable(obj) {
 
   console.table(processedObj);
 
+  // constructor function
   function Info(name, value) {
     this.name = name;
     this.value = value;
@@ -119,8 +120,10 @@ function logTable(obj) {
 #### 2.3. [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ```javascript
+// strings can be created using double quotes ("), single quote (') or backticks (`)
 const text = 'The quick brown fox jumps over a lazy dog';
 const message = '  Hello world!  ';
+const name = 'John Doe';
 const colors = `
 - red
 - green
@@ -139,6 +142,9 @@ console.log('words: ', words);
 
 console.log(message.trim().toLowerCase());
 console.log(colors.toUpperCase());
+
+// string interpolation - uses backticks
+console.log(`The text "${text}" has ${text.length} characters.`);
 ```
 
 #### 2.4. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
@@ -165,7 +171,7 @@ const newUserFromUserStringified = JSON.parse(userStringified); // object
 console.log(newUserFromUserStringified);
 ```
 
-#### 2.5. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+#### 2.5. [Functions basics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 ```javascript
 function double(nr) {
