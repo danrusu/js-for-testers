@@ -34,10 +34,10 @@ Everything that I will present is prefixed with IMHO.`
 
 7 Monthly sessions of 2 hours
 
-| #   | Date       | Title                                                 | Topics                                               |
-| --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------- |
-| 1   | 21.05.2024 | [Let's speak JS](./sessions/session1.md)              | Chrome DevTools (Console, Snippets), JS introduction |
-| 2   | 23.07.2024 | [Functions & Data Processing](./sessions/session2.md) | Functions, Exceptions, Arrays, Loops                 |
+| #   | Date       | Title                                                 | Topics                                               | Practice                                                                                          |
+| --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| 1   | 21.05.2024 | [Let's speak JS](./sessions/session1.md)              | Chrome DevTools (Console, Snippets), JS introduction |                                                                                                   |
+| 2   | 23.07.2024 | [Functions & Data Processing](./sessions/session2.md) | Functions, Exceptions, Arrays, Loops                 | [Homework](https://github.com/danrusu/js-for-testers/blob/master/sessions/session2.md#4-homework) |
 
 ### 3. [Events](./events.md)
 
