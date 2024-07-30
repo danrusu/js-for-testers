@@ -206,3 +206,31 @@ cars
 console.log('cars total price');
 cars.reduce((totalPrice, car) => totalPrice + car.price, 0);
 ```
+
+### 4. Homework
+
+```javascript
+// 1. Using the following array, create a function to solve each task (the array must be passed to function as parameter), call the funtion to get the result and print it to console.
+const mixed = [
+  5,
+  3,
+  'hello',
+  1,
+  { type: 'car', name: 'Ford', price:13000 }
+  4,
+  'world',
+  undefined,
+  2,
+  true,
+  { type: 'car', name: 'BMW', price: 80000 },
+];
+// 1.1 Get an array of all numbers from `mixed` array. Sort the array ascending.
+// i.e getNumbers(mixed) should retun [1, 2, 3, 4, 5]
+// 1.2 Get a string composed from all strings within `mixed` array, concatenated by space.
+// 1.3 Get the average value of all odd numbers from `mixed` array.
+// 1.4 Get the total price of cars from `mixed` array.
+// 1.5 Get the cars array and change their names to have only lowercase letters.
+// 1.6 Get an array of all car names from `mixed` array.
+
+// For practice, try to solve the tasks first with imperative loops, and next with declarative loops.
+```
