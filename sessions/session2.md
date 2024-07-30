@@ -224,13 +224,13 @@ const mixed = [
   true,
   { type: 'car', name: 'BMW', price: 80000 },
 ];
-// 1.1 Get an array of all numbers from `mixed` array. Sort the array ascending.
+// 1.1 Get an array of all numbers from mixed array. Sort the array ascending.
 // i.e getNumbers(mixed) should retun [1, 2, 3, 4, 5]
-// 1.2 Get a string composed from all strings within `mixed` array, concatenated by space.
-// 1.3 Get the average value of all odd numbers from `mixed` array.
-// 1.4 Get the total price of cars from `mixed` array.
+// 1.2 Get a string composed from all strings within mixed array, concatenated by space.
+// 1.3 Get the average value of all odd numbers from mixed array.
+// 1.4 Get the total price of cars from mixed array.
 // 1.5 Get the cars array and change their names to have only lowercase letters.
-// 1.6 Get an array of all car names from `mixed` array.
+// 1.6 Get an array of all car names from mixed array.
 
 // For practice, try to solve the tasks first with imperative loops, and next with declarative loops.
 ```
