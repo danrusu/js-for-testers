@@ -159,7 +159,7 @@ for (let car of cars) {
 }
 ```
 
-#### 3.2. Declaratve loops
+#### 3.2. Declarative loops
 
 ```javascript
 const cars = [
