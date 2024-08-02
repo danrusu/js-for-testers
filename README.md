@@ -49,6 +49,7 @@
 
   - [Documentation](https://developer.chrome.com/docs/devtools)
   - [Developer news - Jecelyn Yeen](https://www.linkedin.com/in/jecfish/)
+  - [Freeze screen & inspect disappearing elements](https://www.youtube.com/watch?v=Qzmb9bdNzZ4)
 
 - [W3Schools](https://www.w3schools.com/js/)
 
