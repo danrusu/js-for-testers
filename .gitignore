@@ -1,2 +1,5 @@
 # Dependency directories
 node_modules/
+
+# session3 dummy JS 
+test.js

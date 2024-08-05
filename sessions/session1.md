@@ -9,6 +9,20 @@
 
 ## Content
 
+- [Let's speak JS](#lets-speak-js)
+  - [Content](#content)
+    - [1. Chrome DevTools](#1-chrome-devtools)
+      - [1.1. Console](#11-console)
+      - [1.2. Sources/Snippets](#12-sourcessnippets)
+    - [2. JS introduction](#2-js-introduction)
+      - [2.1. console.log](#21-consolelog)
+      - [2.2. Primitives \& Typeof](#22-primitives--typeof)
+      - [2.3. String](#23-string)
+      - [2.4. JSON](#24-json)
+      - [2.5. Functions basics](#25-functions-basics)
+      - [2.6. Object](#26-object)
+    - [3. Resources](#3-resources)
+
 ### 1. [Chrome DevTools](https://developer.chrome.com/docs/devtools)
 
 #### 1.1. [Console](https://developer.chrome.com/docs/devtools/console)
@@ -209,5 +223,3 @@ console.log(Object.entries(employee));
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 - [W3Schools](https://www.w3schools.com/js/)
-
-### 4. Q&A

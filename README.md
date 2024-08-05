@@ -37,7 +37,7 @@
 | --- | ---------- | ----------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | 1   | 21.05.2024 | [Let's speak JS](./sessions/session1.md)              | Chrome DevTools (Console, Snippets), JS introduction |                                                                                                   |
 | 2   | 23.07.2024 | [Functions & Data Processing](./sessions/session2.md) | Functions, Exceptions, Arrays, Loops                 | [Homework](https://github.com/danrusu/js-for-testers/blob/master/sessions/session2.md#4-homework) |
-| 3   | 20.08.2024 | [Node.js & Git](./sessions/session3.md)               | Node.js, npm, VSCode, Git, Bash, GitHub              |                                                                                                   |
+| 3   | 20.08.2024 | [Node.js & Git](./sessions/session3.md)               | VSCode, Node.js, npm, Git, Bash, GitHub              |                                                                                                   |
 
 ### 3. [Events](./events.md)
 

@@ -9,10 +9,14 @@
 
 ## Content
 
-1. [**Functions**](#1-functions)
-2. [**Exceptions**](#2-exceptions)
-3. [**Arrays**](#3-Arrays)
-4. [**Homework**](#4-Homework)
+- [Functions \& Data Processing](#functions--data-processing)
+  - [Content](#content)
+    - [1. Functions](#1-functions)
+    - [2. Exceptions](#2-exceptions)
+    - [3. Arrays](#3-arrays)
+      - [3.1. Imperative loops](#31-imperative-loops)
+      - [3.2. Declarative loops](#32-declarative-loops)
+    - [4. Homework](#4-homework)
 
 ### 1. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 

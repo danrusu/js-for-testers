@@ -1,0 +1,133 @@
+# Node.js & Git
+
+```text
+“In theory, there is no difference between theory and practice, while in practice there is.”    
+- Benjamin Brewster
+```
+
+![](../resource/image/backend_frontend.jpg)
+
+## Content
+
+- [Node.js \& Git](#nodejs--git)
+  - [Content](#content)
+    - [1. VSCode](#1-vscode)
+      - [1.1 Shortcuts](#11-shortcuts)
+      - [1.2 Plugins](#12-plugins)
+    - [2. Node.js](#2-nodejs)
+      - [2.1 Installation](#21-installation)
+      - [2.2 Run a simple JS file](#22-run-a-simple-js-file)
+    - [3. npm](#3-npm)
+    - [4. Git \& GitHub](#4-git--github)
+    - [5. Homework](#5-homework)
+
+### 1. [VSCode](https://code.visualstudio.com)
+
+#### 1.1 [Shortcuts](https://code.visualstudio.com/docs/getstarted/keybindings)
+
+- [Shortcuts Cheat Sheet](../resource/vs_code_shortcuts.pdf)
+
+- Settings/Search
+
+| Action                  | Keyboard Shortcut |
+| ----------------------- | ----------------- |
+| Command Pallete         | CTRL + SHIFT + P  |
+| File Search             | CTRL + P          |
+| Text Search (Workspace) | CTRL + SHIFT + F  |
+| Open Recent             | CTRL + R          |
+| Settings                | CTRL + ,          |
+| Terminal                | CTRL + `          |
+
+- Code
+
+| Action             | Keyboard Shortcut        |
+| ------------------ | ------------------------ |
+| Rename             | F2                       |
+| Next Error/Warning | F8                       |
+| Duplicate Code     | SHIFT + ALT + DOWN ARROW |
+| Move Code UP/DOWN  | ALT + UP/DOWN ARROW      |
+| Comment Code       | CTRL + /                 |
+| Block Comment      | CTRL + SHIFT + /         |
+| Collapse all       | CTRL + K CTRL + 0        |
+| Expand all         | CTRL + K CTRL + J        |
+| Trigger Suggest    | CTRL + Space             |
+| Quick Fix          | CTRL + .                 |
+| Go to Line         | CTRL + G                 |
+
+#### 1.2 Plugins
+
+- [Prettier](https://prettier.io/) - code formatter
+  - **.prettierrc** - a configuration file in root of the project
+  ```json
+  {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "all",
+    "semi": true,
+    "bracketSpacing": true,
+    "overrides": [
+      {
+        "files": [".prettierrc"],
+        "options": {
+          "parser": "json"
+        }
+      }
+    ]
+  }
+  ```
+  - **Format on save** - open Settings and use search box to
+    - set _Editor: Default Formatter_ to Prettier
+    - enable _Editor: Format On Save_ checkbox
+
+### 2. [Node.js](https://nodejs.org/en)
+
+#### 2.1 Installation
+
+- Install latest LTS version available (it will also install **npm**)
+- [nvm](https://github.com/nvm-sh/nvm) - if you need to switch Node.js versions
+
+- Verify **Node.js** and **npm** versions
+  ```bash
+  node --version
+  npm --version
+  ```
+
+#### 2.2 Run a simple JS file
+
+```bash
+echo 'console.log("Hello world!")' > test.js
+node test.js
+```
+
+### 3. [npm](https://docs.npmjs.com)
+
+- Upgrade to the latest version available
+
+  ```bash
+  npm install -g npm
+  npm --version
+  ```
+
+- Create a npm package
+
+```bash
+ npm init --yes
+ cat package.json
+```
+
+- [package.json](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
+
+### 4. [Git](https://git-scm.com) & [GitHub](https://github.com)
+
+- Install from [downloads page](https://git-scm.com/downloads) - choose **GitBash**
+
+- [Git documentation](https://git-scm.com/doc)
+  - [Pro Git - 2nd Edition (2014)](https://git-scm.com/book/en/v2)
+
+### 5. Homework
+
+```javascript
+
+```
