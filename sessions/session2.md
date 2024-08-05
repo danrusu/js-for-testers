@@ -9,6 +9,11 @@
 
 ## Content
 
+1. [**Functions**](#1-functions)
+2. [**Exceptions**](#2-exceptions)
+3. [**Arrays**](#3-Arrays)
+4. [**Homework**](#4-Homework)
+
 ### 1. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 A **function** is usually created by _wrapping a piece of program and giving it a name_. This has important usages:
