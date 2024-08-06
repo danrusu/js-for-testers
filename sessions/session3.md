@@ -1,4 +1,4 @@
-# Node.js & Git
+# Node.js & VSCode
 
 ```text
 “There are two ways of constructing a software design:
@@ -12,7 +12,7 @@ The first method is far more difficult.”    
 
 ## Content
 
-- [Node.js \& Git](#nodejs--git)
+- [Node.js \& VSCode](#nodejs--vscode)
   - [Content](#content)
     - [1. VSCode](#1-vscode)
       - [1.1 Shortcuts](#11-shortcuts)
@@ -22,8 +22,7 @@ The first method is far more difficult.”    
       - [2.1 Installation](#21-installation)
       - [2.2 Run a simple JS file](#22-run-a-simple-js-file)
     - [3. npm - node package manager](#3-npm---node-package-manager)
-    - [4. Git \& GitHub](#4-git--github)
-    - [5. Homework](#5-homework)
+    - [4. Homework](#4-homework)
 
 ### 1. [VSCode](https://code.visualstudio.com)
 
@@ -186,19 +185,8 @@ npm info mocha #check out one of the open source maintainers page - https://www.
 
 - [npm versioning](https://docs.npmjs.com/about-semantic-versioning)
 
-### 4. [Git](https://git-scm.com) & [GitHub](https://github.com)
-
-- Install from [downloads page](https://git-scm.com/downloads) - choose **GitBash**
-
-- [Git documentation](https://git-scm.com/doc)
-  - [Pro Git - 2nd Edition (2014)](https://git-scm.com/book/en/v2)
-
-### 5. Homework
+### 4. Homework
 
 ```javascript
 ... will be added soon
-```
-
-```
-
 ```
