@@ -178,7 +178,7 @@ npm uninstall lodash prettier husky
 npm info mocha #check out one of the open source maintainers page - https://www.joshuakgoldberg.com/
 ```
 
-- [npx](https://www.npmjs.com/package/npx) - execute npm package
+- [npx](https://www.npmjs.com/package/npx) - execute npm package binary
 
   - [freeCodeCamp tutorial - **npm vs. npx**](https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/)
 
