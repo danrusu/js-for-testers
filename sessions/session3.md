@@ -18,6 +18,10 @@ The first method is far more difficult.”    
       - [1.1 Shortcuts](#11-shortcuts)
       - [1.2 Plugins](#12-plugins)
       - [1.3 JavaScript Debug Terminal](#13-javascript-debug-terminal)
+    - [2. Node.js](#2-nodejs)
+      - [2.1 Installation](#21-installation)
+      - [2.2 Run a simple JS file](#22-run-a-simple-js-file)
+    - [3. npm - node package manager](#3-npm---node-package-manager)
     - [4. Git \& GitHub](#4-git--github)
     - [5. Homework](#5-homework)
 
@@ -101,7 +105,7 @@ The first method is far more difficult.”    
 
 #### [1.3 JavaScript Debug Terminal](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_javascript-debug-terminal)
 
-````javascript
+```javascript
 // try to debug this simple code; add variables/expressions to the Watch
 const taxes = [100, 500, 900]; // add a breakpoint here
 const totalTax = taxes.reduce(sum, 0);
@@ -143,8 +147,6 @@ node test.js
   npm install -g npm
   npm --version
   ```
-
-````
 
 - Create a npm package
 
@@ -195,4 +197,8 @@ npm info mocha #check out one of the open source maintainers page - https://www.
 
 ```javascript
 ... will be added soon
+```
+
+```
+
 ```
