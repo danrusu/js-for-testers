@@ -20,7 +20,7 @@ The first method is far more difficult.”    
     - [2. Node.js](#2-nodejs)
       - [2.1 Installation](#21-installation)
       - [2.2 Run a simple JS file](#22-run-a-simple-js-file)
-    - [3. npm](#3-npm)
+    - [3. npm - node package manager](#3-npm---node-package-manager)
     - [4. Git \& GitHub](#4-git--github)
     - [5. Homework](#5-homework)
 
@@ -59,8 +59,12 @@ The first method is far more difficult.”    
 
 #### 1.2 Plugins
 
-- [Prettier](https://prettier.io/) - code formatter
-  - **.prettierrc** - a configuration file in root of the project
+- [Prettier](https://prettier.io/docs/en/) - code formatter
+
+  - [CLI](https://prettier.io/docs/en/cli)
+  - [Ignore files/code](https://prettier.io/docs/en/ignore) - use **.prettierignore** file or inline comments
+  - Configuration [**.prettierrc**](https://prettier.io/docs/en/configuration)
+
   ```json
   {
     "printWidth": 80,
@@ -80,9 +84,23 @@ The first method is far more difficult.”    
     ]
   }
   ```
+
   - **Format on save** - open Settings and use search box to
+
     - set _Editor: Default Formatter_ to Prettier
     - enable _Editor: Format On Save_ checkbox
+
+  - Check all project files formatting
+
+  ```bash
+  npx prettier --check .
+  ```
+
+  - Format all project files
+
+  ```bash
+  npx prettier --write .
+  ```
 
 ### 2. [Node.js](https://nodejs.org/en)
 
@@ -104,7 +122,9 @@ echo 'console.log("Hello world!")' > test.js
 node test.js
 ```
 
-### 3. [npm](https://docs.npmjs.com)
+### 3. [npm](https://docs.npmjs.com) - node package manager
+
+- [CLI](https://docs.npmjs.com/cli/v7/commands)
 
 - Upgrade to the latest version available
 
@@ -116,11 +136,40 @@ node test.js
 - Create a npm package
 
 ```bash
- npm init --yes
- cat package.json
+ npm init --yes #it will create the package.json file
 ```
 
 - [package.json](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
+
+- Install/uninstall dependencies to/from **node_modules** folder
+
+```bash
+# add dependency
+npm install lodash # try _.cloneDeep()
+# add dev dependency
+npm install -D prettier husky
+
+# remove node_modules folder (all installed dependencies)
+rm -rf node_modules
+# install all project dependencies
+npm install # shorter version: npm i
+
+# remove all previously installed dependencies (from both node_modules and package.json)
+npm uninstall lodash prettier husky
+```
+
+- Show package info
+
+```bash
+#npm [view/info/show/v] package-name
+npm info mocha #check out one of the open source maintainers page - https://www.joshuakgoldberg.com/
+```
+
+- [npx](https://www.npmjs.com/package/npx) - execute npm package
+
+  - freeCodeCamp tutorial - [**npm vs. npx**](https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/)
+
+- [npm versioning](https://docs.npmjs.com/about-semantic-versioning)
 
 ### 4. [Git](https://git-scm.com) & [GitHub](https://github.com)
 
