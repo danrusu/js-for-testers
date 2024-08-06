@@ -175,8 +175,8 @@ npm uninstall lodash prettier husky
 - Show package info
 
 ```bash
-#npm [view/info/show/v] package-name
-npm info mocha #check out one of the open source maintainers page - https://www.joshuakgoldberg.com/
+# npm [view/info/show/v] package-name
+npm info mocha #check out one of the mocha open source maintainers page - https://www.joshuakgoldberg.com/
 ```
 
 - [npx](https://www.npmjs.com/package/npx) - execute npm package binary
