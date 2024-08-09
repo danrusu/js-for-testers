@@ -9,6 +9,8 @@
 
 ## Goal: Build some useful skills and have fun.
 
+## Important - [Anonymous Feedback Tool](https://anonymous-feedback-f9a50211e30c.herokuapp.com/)
+
 **Topics:**
 
 - Basic coding skills, using JavaScript
