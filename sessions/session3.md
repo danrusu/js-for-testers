@@ -106,6 +106,7 @@ The first method is far more difficult.”    
 
 ```javascript
 // try to debug this simple code; add variables/expressions to the Watch
+// debug the same code in browser (snippet, or html page script)
 const taxes = [100, 500, 900]; // add a breakpoint here
 const totalTax = taxes.reduce(sum, 0);
 console.log('Total tax: ', totalTax);
@@ -164,7 +165,7 @@ npm install lodash # try _.cloneDeep()
 npm install -D prettier mocha chai
 
 # remove node_modules folder (all installed dependencies)
-rm -rf node_modules 
+rm -rf node_modules
 # install all project dependencies
 npm install # shorter version: npm i
 
