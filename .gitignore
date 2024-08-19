@@ -1,5 +1,10 @@
 # Dependency directories
 node_modules/
 
-# session3 dummy JS 
+# vscode config
+.vscode
+
+# dummy JS in root to test ideas
 test.js
+
+
