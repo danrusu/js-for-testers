@@ -161,15 +161,15 @@ node test.js
 # add dependency
 npm install lodash # try _.cloneDeep()
 # add dev dependency
-npm install -D prettier husky
+npm install -D prettier mocha chai
 
 # remove node_modules folder (all installed dependencies)
-rm -rf node_modules
+rm -rf node_modules 
 # install all project dependencies
 npm install # shorter version: npm i
 
 # remove all previously installed dependencies (from both node_modules and package.json)
-npm uninstall lodash prettier husky
+npm uninstall lodash prettier mocha chai
 ```
 
 - Show package info
