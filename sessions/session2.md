@@ -17,6 +17,8 @@
       - [3.1. Imperative loops](#31-imperative-loops)
       - [3.2. Declarative loops](#32-declarative-loops)
     - [4. Homework](#4-homework)
+      - [4.1 Task](#41-task)
+      - [4.2 Solution](#42-solution)
 
 ### 1. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
@@ -218,14 +220,17 @@ cars.reduce((totalPrice, car) => totalPrice + car.price, 0);
 
 ### 4. Homework
 
+#### 4.1 Task
+
 ```javascript
 // 1. Using the following array, create a function to solve each task (the array must be passed to function as parameter), call the funtion to get the result and print it to console.
 const mixed = [
   5,
   3,
+  NaN,
   'hello',
   1,
-  { type: 'car', name: 'Ford', price:13000 }
+  { type: 'car', name: 'Ford', price: 13000 },
   4,
   'world',
   undefined,
@@ -233,15 +238,93 @@ const mixed = [
   10,
   true,
   { type: 'car', name: 'BMW', price: 80000 },
-  null
+  {},
+  null,
 ];
 // 1.1 Get an array of all numbers from mixed array. Sort the array ascending.
-// i.e getNumbers(mixed) should retun [1, 2, 3, 4, 5]
+// i.e getNumbers(mixed) should retun [1, 2, 3, 4, 5, 10]
 // 1.2 Get a string composed from all strings within mixed array, concatenated by space.
 // 1.3 Get the average value of all odd numbers from mixed array.
 // 1.4 Get the total price of cars from mixed array.
-// 1.5 Get the cars array and change their names to have only lowercase letters.
+// 1.5 Get the cars array with names having only lowercase letters.
 // 1.6 Get an array of all car names from mixed array.
 
 // For practice, try to solve the tasks first with imperative loops, and next with declarative loops.
+```
+
+#### 4.2 Solution
+
+```javascript
+const mixed = [
+  5,
+  3,
+  NaN,
+  'hello',
+  1,
+  { type: 'car', name: 'Ford', price: 13000 },
+  4,
+  'world',
+  undefined,
+  2,
+  10,
+  true,
+  { type: 'car', name: 'BMW', price: 80000 },
+  {},
+  null,
+];
+
+// 1.1 Get an array of all valid numbers from mixed array. Sort the array ascending.
+const isValidNumber = value =>
+  typeof value === 'number' && isNaN(value) == false;
+const numbersAscendingComparator = (a, b) => a - b;
+const filterAndSortNumbers = mixedArray => {
+  const numbers = mixedArray.filter(isValidNumber);
+  const sortedNumbers = numbers.sort(numbersAscendingComparator);
+  return sortedNumbers;
+};
+const sortedNumbers = filterAndSortNumbers(mixed);
+console.log('sortedNumbers:', sortedNumbers);
+
+// 1.2 Get a string composed from all strings within mixed array, concatenated by space.
+const isString = value => typeof value === 'string';
+const getConcatenatedStrings = mixedArray => {
+  return mixedArray.filter(isString).join(' ');
+};
+const concatenatedStrings = getConcatenatedStrings(mixed);
+console.log('concatenatedStrings:', concatenatedStrings);
+
+// 1.3 Get the average value of all odd numbers from mixed array.
+const sum = (a, b) => a + b;
+const isOdd = number => number % 2 === 1;
+const getOddNumbersAverage = mixedArray => {
+  const oddNumners = mixedArray.filter(isValidNumber).filter(isOdd);
+  const oddNumbersSum = oddNumners.reduce(sum, 0);
+  return oddNumbersSum / oddNumners.length;
+};
+const oddNumbersAverage = getOddNumbersAverage(mixed);
+console.log('oddNumbersAverage:', oddNumbersAverage);
+
+// 1.4 Get the total price of cars from mixed array.
+const isCar = obj => obj?.type === 'car';
+const getCarPrice = car => car.price;
+const getCarsTotalPrice = mixedArray =>
+  mixedArray.filter(isCar).map(getCarPrice).reduce(sum, 0);
+const carsTotalPrice = getCarsTotalPrice(mixed);
+console.log('carsTotalPrice:', carsTotalPrice);
+
+// 1.5 Get the cars array with names having only lowercase letters.
+const changeCarNameToLowerCase = car => ({
+  ...car,
+  name: car.name.toLowerCase(),
+});
+const getCarsWithLowerCaseNames = mixedArray =>
+  mixedArray.filter(isCar).map(changeCarNameToLowerCase);
+const carsWithLowerCaseNames = getCarsWithLowerCaseNames(mixed);
+console.log('carsWithLowerCaseNames:', carsWithLowerCaseNames);
+
+// 1.6 Get an array of all car names from mixed array.
+const getCarName = car => car.name;
+const getCarNames = mixedArray => mixedArray.filter(isCar).map(getCarName);
+const carNames = getCarNames(mixed);
+console.log('carNames:', carNames);
 ```
