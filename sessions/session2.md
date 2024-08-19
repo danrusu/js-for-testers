@@ -230,8 +230,10 @@ const mixed = [
   'world',
   undefined,
   2,
+  10,
   true,
   { type: 'car', name: 'BMW', price: 80000 },
+  null
 ];
 // 1.1 Get an array of all numbers from mixed array. Sort the array ascending.
 // i.e getNumbers(mixed) should retun [1, 2, 3, 4, 5]
