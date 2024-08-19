@@ -62,7 +62,7 @@ The first method is far more difficult.”    
 - [Prettier](https://prettier.io/docs/en/) - code formatter
 
   - [CLI](https://prettier.io/docs/en/cli)
-  - [Ignore files/code](https://prettier.io/docs/en/ignore) - use **.prettierignore** file or inline comments
+  - [Ignore files/code](https://prettier.io/docs/en/ignore) - use **.prettierignore** file or [inline comments](https://prettier.io/docs/en/ignore.html#javascript)
   - Configuration [**.prettierrc**](https://prettier.io/docs/en/configuration)
 
   ```json
