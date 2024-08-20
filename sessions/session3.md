@@ -189,5 +189,6 @@ npm info mocha #check out one of the mocha open source maintainers page - https:
 ### 4. Homework
 
 ```javascript
-... will be added soon
+Extract and use utilities (all functions) from [homework-declarative.js](../src/session2/homework-declarative.js) and [homework-imprative.js](../src/session2/homework-imperative.js) to [utils.js](../src/session2/utils.js).
+Watch code execution by setting breakpoints and using javascript debugger terminal.
 ```

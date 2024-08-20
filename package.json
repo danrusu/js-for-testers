@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "node ./src/session3/debug.js",
-    "hd": "node ./src/session2/homework-declarative.js"
+    "s3-debug": "node ./src/session3/debug.js",
+    "s2-hd": "node ./src/session2/homework-declarative.js",
+    "s2-hi": "node ./src/session2/homework-imperative.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Dan Rusu",
+  "license": "MIT",
   "devDependencies": {
     "prettier": "^3.3.3"
   },
