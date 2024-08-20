@@ -23,6 +23,8 @@
 - [Git documentation](https://git-scm.com/doc)
   - [Pro Git - 2nd Edition (2014)](https://git-scm.com/book/en/v2)
 
+![](../resource/image/gitStages.png)
+
 ### 2. Bash (GitBash)
 
 ### 3. vi (CLI visual editor)
