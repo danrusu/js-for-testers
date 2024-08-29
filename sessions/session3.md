@@ -139,7 +139,19 @@ node test.js
 
 ### 3. [npm](https://docs.npmjs.com) - node package manager
 
+- Tutorials
+
+  - [Package Management in JavaScript with npm and Yarn, 2022, Joe Eames](https://app.pluralsight.com/library/courses/javascript-npm-yarn-package-management)
+
 - [CLI](https://docs.npmjs.com/cli/v7/commands)
+
+- help
+
+  ```bash
+  npm -h
+  npm <command> -h # quick command help
+  mpm help <term> # online search for help on <term>
+  ```
 
 - Upgrade to the latest version available
 
@@ -163,6 +175,8 @@ node test.js
 npm install lodash # try _.cloneDeep()
 # add dev dependency
 npm install -D prettier mocha chai
+npm list # list dependencies
+# usefull flags --all, --depth <depth>
 
 # remove node_modules folder (all installed dependencies)
 rm -rf node_modules
@@ -193,6 +207,6 @@ Watch code execution by setting breakpoints and using javascript debugger termin
 You have scripts added in [package.json](../package.json) for running both homework solutions.
 
 ```bash
-npm run s3-hi # runs homework-imperative.js
-npm run s3-hd # runs homework-declarative.js
+npm run s2-hi # runs homework-imperative.js
+npm run s2-hd # runs homework-declarative.js
 ```

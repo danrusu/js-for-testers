@@ -1,20 +1,4 @@
-const mixed = [
-  5,
-  3,
-  NaN,
-  'hello',
-  1,
-  { type: 'car', name: 'Ford', price: 13000 },
-  4,
-  'world',
-  undefined,
-  2,
-  10,
-  true,
-  { type: 'car', name: 'BMW', price: 80000 },
-  {},
-  null,
-];
+const { mixed } = require('./mixed-data');
 
 // 1.1 Get an array of all valid numbers from mixed array. Sort the array ascending.
 function filterAndSortNumbers(mixedArray) {
