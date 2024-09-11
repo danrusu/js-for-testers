@@ -175,8 +175,8 @@ node test.js
 npm install lodash # try _.cloneDeep()
 # add dev dependency
 npm install -D prettier mocha chai
-npm list # list dependencies
-# usefull flags --all, --depth <depth>
+npm list # list dependencies; "ls" is an alias for list command
+# usefull flags --all, --depth <depth>, -g (global installed packages)
 
 # remove node_modules folder (all installed dependencies)
 rm -rf node_modules
@@ -191,7 +191,8 @@ npm uninstall lodash prettier mocha chai
 
 ```bash
 # npm [view/info/show/v] package-name
-npm info mocha #check out one of the mocha open source maintainers page - https://www.joshuakgoldberg.com/
+npm info mocha # check out one of the mocha open source maintainers page - https://www.joshuakgoldberg.com/
+npm repo mocha # opens GitHub repository for a package
 ```
 
 - [npx](https://www.npmjs.com/package/npx) - execute npm package binary
@@ -199,6 +200,9 @@ npm info mocha #check out one of the mocha open source maintainers page - https:
   - [freeCodeCamp tutorial - **npm vs. npx**](https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/)
 
 - [npm versioning](https://docs.npmjs.com/about-semantic-versioning)
+  ```bash
+  npm version [major|minor|patch] #update package version
+  ```
 
 ### 4. Homework
 
