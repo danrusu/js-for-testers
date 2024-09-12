@@ -27,6 +27,28 @@
 
 ### 2. Bash (GitBash)
 
+- `.` represents current folder
+- `..` represents parent folder
+- `/` is the path separator (linux style)
+
+```bash
+# IMPORTANT: use TAB key for path autocompletion
+
+pwd # print working directory
+
+ls -all # list all files in work directory
+mkdir git_bash_demo # creates git_bash_demo directory
+
+cd git_bash_demo # change work directory to git_bash_demo
+cd - # toggle to previous work directory
+
+touch file.txt # create new file
+echo "first line" > file.txt # creates file.txt and writes "first line" in it
+echo "second line" >> file.txt # appends "second line" to file.txt
+cat file.txt # prints file.txt content
+rm file.txt # deletes file.txt; to remove a folder add a -r flag; use -f to force deleting a file/folder
+```
+
 ### 3. vi (CLI visual editor)
 
 ### 4. [GitHub](https://github.com)
