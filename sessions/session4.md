@@ -80,7 +80,7 @@ git config --global help.autocorrect 10
 #### 1.2 Simplest flow
 
 ```bash
-# 1. Create a github project
+# 1. Create a GitHub project
 # 2. Clone the project from GitHub (or other remotes)
 cd dev_directory
 git clone git@github.com:danrusu/js-for-testers.git # this is using SSH keys
