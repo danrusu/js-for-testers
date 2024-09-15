@@ -13,6 +13,7 @@
   - [Content](#content)
     - [1. Git](#1-git)
       - [1.1 Simplest flow](#11-simplest-flow)
+      - [1.2 Using SSH keys for GitHub authentication](#12-using-ssh-keys-for-github-authentication)
     - [2. Bash (GitBash)](#2-bash-gitbash)
       - [2.1 Basic commands](#21-basic-commands)
       - [2.2 Copy/Paste Selected text in CLI](#22-copypaste-selected-text-in-cli)
@@ -61,7 +62,27 @@ git status # local branch contains all changes
 
 # 7. Push the branch to the remote repository
 git push
+
+# 8. From GitHub open a PR (Pull Request) to merge 'dev-branch' to 'master'
+# Wait until the PR is reviewed and mmerge it to master.
+
+# 9. Checkout the master branch and update it from remote
+git checkout master # you can also use 'git checkout -' to toggle between last two used branches
+git pull
 ```
+
+#### 1.2 Using SSH keys for GitHub authentication
+
+- create a local SSH key
+
+```bash
+ssh-keygen -t rsa # -b 4096 -C "your_email@example.com"
+ls ~/.ssh
+cat id_rsa.pub # print the rsa public key; we'll use this one
+# copy the key to clipboard
+```
+
+- go to your [GitHub profile](https://github.com/settings/profile) and add your key to [SSH and GPG keys](https://github.com/settings/profile)
 
 ### 2. Bash (GitBash)
 
