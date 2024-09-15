@@ -12,6 +12,7 @@
 - [Git \& GitHub](#git--github)
   - [Content](#content)
     - [1. Git](#1-git)
+      - [1.1 Simplest flow](#11-simplest-flow)
     - [2. Bash (GitBash)](#2-bash-gitbash)
       - [2.1 Basic commands](#21-basic-commands)
       - [2.2 Copy/Paste Selected text in CLI](#22-copypaste-selected-text-in-cli)
@@ -19,7 +20,6 @@
       - [2.4 Bash profile file](#24-bash-profile-file)
     - [3. vi (CLI visual editor)](#3-vi-cli-visual-editor)
     - [4. GitHub](#4-github)
-      - [4.1 Simplest flow](#41-simplest-flow)
 
 ### 1. [Git](https://git-scm.com)
 
@@ -29,6 +29,39 @@
   - [Pro Git - 2nd Edition (2014)](https://git-scm.com/book/en/v2)
 
 ![](../resource/image/gitStages.png)
+
+#### 1.1 Simplest flow
+
+```bash
+# 1. Create a github project
+# 2. Clone the project from GitHub (or other remotes)
+cd dev_directory
+git clone git@github.com:danrusu/js-for-testers.git # this is using SSH keys
+cd js-for-testers
+ls -all
+git remote -v # print remotes (only one in our case with an alias of origin)
+git branch # show local branches; current branch has a * in front
+git branch -r # show remote branches
+git pull # update local repository
+
+# 3. Create a new development branch
+git checkout -b dev-branch # creates a new branch and checks it out; usualy there is a branch naming convention
+git branch # the current branch should be dev-branch
+
+# 4. Start development - create/delete/edit files
+
+# 5. Stage new files
+git status # check file differences
+git add -A # you can use 'git add .'
+git status
+
+# 6. Commit changes to local repository
+git commit -m "fixed bug 124"
+git status # local branch contains all changes
+
+# 7. Push the branch to the remote repository
+git push
+```
 
 ### 2. Bash (GitBash)
 
@@ -84,7 +117,7 @@ unalias gs # remove alias
 
 #### 2.4 Bash profile file
 
-- location (preffered): `~/.profile`
+- location (preferred): `~/.profile`
 - it is a good place for saving aliases and global environment variables
 - this is a bash file so you can also create global functions within
 
@@ -111,5 +144,3 @@ vi basic usage
   | **/word**                                    | search for word (forward)                         |
 
 ### 4. [GitHub](https://github.com)
-
-#### 4.1 Simplest flow
