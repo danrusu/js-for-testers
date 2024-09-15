@@ -30,8 +30,6 @@
 - [Git documentation](https://git-scm.com/doc)
   - [Pro Git - 2nd Edition (2014)](https://git-scm.com/book/en/v2)
 
-![](../resource/image/gitStages.png)
-
 #### 1.1 [Git configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
 
 - configuration levels
@@ -78,6 +76,8 @@ git config --global help.autocorrect 10
 ```
 
 #### 1.2 Simplest flow
+
+![](../resource/image/gitStages.png)
 
 ```bash
 # 1. Create a GitHub project
