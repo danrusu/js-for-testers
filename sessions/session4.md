@@ -12,8 +12,9 @@
 - [Git \& GitHub](#git--github)
   - [Content](#content)
     - [1. Git](#1-git)
-      - [1.1 Simplest flow](#11-simplest-flow)
-      - [1.2 Using SSH keys for GitHub authentication](#12-using-ssh-keys-for-github-authentication)
+      - [1.1 Git configuration](#11-git-configuration)
+      - [1.2 Simplest flow](#12-simplest-flow)
+      - [1.3 Using SSH keys for GitHub authentication](#13-using-ssh-keys-for-github-authentication)
     - [2. Bash (GitBash)](#2-bash-gitbash)
       - [2.1 Basic commands](#21-basic-commands)
       - [2.2 Copy/Paste Selected text in CLI](#22-copypaste-selected-text-in-cli)
@@ -31,7 +32,52 @@
 
 ![](../resource/image/gitStages.png)
 
-#### 1.1 Simplest flow
+#### 1.1 [Git configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+
+- configuration levels
+
+  - global
+  - system
+  - local
+
+- display current global git config
+
+```bash
+git config --global -l
+```
+
+- user setup
+
+```bash
+git config --global user.name "Dan Rusu"
+git config --global user.email danginkgo@yahoo.com
+```
+
+- convert CRLF to LF on commit but not the other way around
+
+```bash
+git config --global core.autocrlf input
+```
+
+- assume --set-upstream on default push when no upstream tracking exists for the current branch
+
+```bash
+git config --global --add --bool push.autoSetupRemote true
+```
+
+- on OS (Windows, Mac) with case insensitive file systems this helps a lot
+
+```bash
+git config --global core.ignorecase false
+```
+
+- set autocorrect for commands typos
+
+```bash
+git config --global help.autocorrect 10
+```
+
+#### 1.2 Simplest flow
 
 ```bash
 # 1. Create a github project
@@ -61,7 +107,8 @@ git commit -m "fixed bug 124"
 git status # local branch contains all changes
 
 # 7. Push the branch to the remote repository
-git push
+git push # push all local branches
+git push origin dev_branch # push only dev_branch
 
 # 8. From GitHub open a PR (Pull Request) to merge 'dev-branch' to 'master'
 # Wait until the PR is reviewed and mmerge it to master.
@@ -71,7 +118,7 @@ git checkout master # you can also use 'git checkout -' to toggle between last t
 git pull
 ```
 
-#### 1.2 Using SSH keys for GitHub authentication
+#### 1.3 Using SSH keys for GitHub authentication
 
 - create a local SSH key
 
