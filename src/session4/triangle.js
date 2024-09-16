@@ -1,11 +1,11 @@
 /*
 Write a function that receives 3 numbers as input 
-and returns if the numbers can be the sides of a triangle:
-
+and returns if the numbers can be the sides of a triangle.
+Rules: 
 - throw 'Invalid input. Expecting 3 positive numbers as params.' error 
 if inputs are not posivive numbers
 
-return value (text):
+- return value (text):
   - not a triangle
   - triangle
   - isosceles triangle
