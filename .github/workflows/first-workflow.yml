@@ -1,15 +1,22 @@
 name: Test JS Project
 on:
   workflow_dispatch: # manually triggered
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: '* */12 * * *' #every 12 hours
+
 jobs:
   unit-tests:
     name: Unit tests
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       # print useful informtion
+      - run: lsb_release -d
       - run: pwd
       - run: ls
       - run: node -v

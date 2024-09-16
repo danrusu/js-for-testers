@@ -22,6 +22,9 @@
       - [2.4 Bash profile file](#24-bash-profile-file)
     - [3. vi (CLI visual editor)](#3-vi-cli-visual-editor)
     - [4. GitHub](#4-github)
+      - [4.1 Create a GitHub Acount](#41-create-a-github-acount)
+      - [4.1 GitHub Actions](#41-github-actions)
+      - [4.2 Repository secrets](#42-repository-secrets)
 
 ### 1. [Git](https://git-scm.com)
 
@@ -211,6 +214,16 @@ vi basic usage
   | **p**                                        | paste copied text                                 |
   | **/word**                                    | search for word (forward)                         |
 
-### 4. [GitHub](https://github.com)
+### 4. [GitHub](https://docs.github.com/en)
+
+#### 4.1 [Create a GitHub Acount](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+
+#### 4.1 [GitHub Actions](https://docs.github.com/en/actions)
+
+- [Workflows syntax](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions)
+- [Events that trigger workflows](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows)
+- [Job runners](https://docs.github.com/en/actions/writing-workflows/choosing-where-your-workflow-runs/choosing-the-runner-for-a-job)
+
+#### 4.2 [Repository secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository)
 
 ![Tests](https://github.com/danrusu/js-for-testers/actions/workflows/first-workflow.yml/badge.svg)
