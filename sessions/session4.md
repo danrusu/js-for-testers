@@ -109,9 +109,8 @@ git status
 git commit -m "fixed bug 124"
 git status # local branch contains all changes
 
-# 7. Push the branch to the remote repository
-git push # push all local branches
-git push origin dev_branch # push only dev_branch
+# 7. Push the current branch to the remote repository
+git push
 
 # 8. From GitHub open a PR (Pull Request) to merge 'dev-branch' to 'master'
 # Wait until the PR is reviewed and mmerge it to master.
