@@ -4,7 +4,7 @@
   "description": "Explore, collaborate and learn together.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test/**/*.js",
     "s3-debug": "node ./src/session3/debug.js",
     "s2-hd": "node ./src/session2/homework-declarative.js",
     "s2-hi": "node ./src/session2/homework-imperative.js"
@@ -15,6 +15,8 @@
   "author": "Dan Rusu",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.7.3",
     "prettier": "^3.3.3"
   },
   "dependencies": {
