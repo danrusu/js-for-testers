@@ -23,8 +23,8 @@
     - [3. vi (CLI visual editor)](#3-vi-cli-visual-editor)
     - [4. GitHub](#4-github)
       - [4.1 Create a GitHub Acount](#41-create-a-github-acount)
-      - [4.1 GitHub Actions](#41-github-actions)
-      - [4.2 Repository secrets](#42-repository-secrets)
+      - [4.2 GitHub Actions](#42-github-actions)
+      - [4.3 Repository secrets](#43-repository-secrets)
 
 ### 1. [Git](https://git-scm.com)
 
@@ -189,7 +189,7 @@ unalias gs # remove alias
 #### 2.4 Bash profile file
 
 - location (preferred): `~/.profile`
-- it is a good place for saving aliases and global environment variables
+- it's a good place for saving aliases and global environment variables
 - this is a bash file so you can also create global functions within
 
 ### 3. vi (CLI visual editor)
@@ -218,12 +218,31 @@ vi basic usage
 
 #### 4.1 [Create a GitHub Acount](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 
-#### 4.1 [GitHub Actions](https://docs.github.com/en/actions)
+#### 4.2 [GitHub Actions](https://docs.github.com/en/actions)
 
 - [Workflows syntax](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions)
 - [Events that trigger workflows](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows)
+  - [workflow_dispatch](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#workflow_dispatch) - manually trigger a workflow
+  - [pull_request](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#pull_request)
+  - [schedule](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) - scheduled workflow using UTC times with POSIX cron syntax
+  ```txt
+  ┌───────────── minute (0 - 59)
+  │ ┌───────────── hour (0 - 23)
+  │ │ ┌───────────── day of the month (1 - 31)
+  │ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
+  │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
+  │ │ │ │ │
+  │ │ │ │ │
+  │ │ │ │ │
+  * * * * *
+  ```
 - [Job runners](https://docs.github.com/en/actions/writing-workflows/choosing-where-your-workflow-runs/choosing-the-runner-for-a-job)
+- [Workflow badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge)
 
-#### 4.2 [Repository secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository)
+  ![Tests](https://github.com/danrusu/js-for-testers/actions/workflows/first-workflow.yml/badge.svg)
 
-![Tests](https://github.com/danrusu/js-for-testers/actions/workflows/first-workflow.yml/badge.svg)
+#### 4.3 Repository secrets
+
+- [Create secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository)
+  - [create secret for actions](https://github.com/danrusu/js-for-testers/settings/secrets/actions/new)
+- [Use secrets in workflows](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow)
