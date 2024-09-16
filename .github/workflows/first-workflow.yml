@@ -1,0 +1,16 @@
+name: Test JS Project
+on:
+  workflow_dispatch: # manually triggered
+jobs:
+  unit-tests:
+    name: Unit tests
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Unit test
+        run: npm test
