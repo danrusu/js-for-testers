@@ -212,3 +212,5 @@ vi basic usage
   | **/word**                                    | search for word (forward)                         |
 
 ### 4. [GitHub](https://github.com)
+
+![Tests](https://github.com/danrusu/js-for-testers/actions/workflows/first-workflow.yml/badge.svg)
