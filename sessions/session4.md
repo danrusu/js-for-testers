@@ -120,6 +120,14 @@ git checkout master # you can also use 'git checkout -' to toggle between last t
 git pull
 ```
 
+- [git stash ](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning) - stash your changes before you commit to work for something else, apply the changes later
+  ```bash
+  # do some changes
+  git stash # save changes to stash
+  git stash list
+  git stash apply # apply stashed changes
+  ```
+
 #### 1.3 Using SSH keys for GitHub authentication
 
 - create a local SSH key
