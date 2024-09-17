@@ -4,7 +4,7 @@
   "description": "Explore, collaborate and learn together.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*.js",
+    "test": "mocha test/**/*.spec.js",
     "s3-debug": "node ./src/session3/debug.js",
     "s2-hd": "node ./src/session2/homework-declarative.js",
     "s2-hi": "node ./src/session2/homework-imperative.js"
