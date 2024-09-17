@@ -57,3 +57,7 @@
 - [W3Schools](https://www.w3schools.com/js/)
 
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
+
+- [Mocha](https://mochajs.org/) - unit test framework
+
+- [Chai](https://www.chaijs.com/) - assertion library
