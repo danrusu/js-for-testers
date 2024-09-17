@@ -121,11 +121,18 @@ git pull
 ```
 
 - [git stash ](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning) - stash your changes before you commit to work for something else, apply the changes later
+
   ```bash
   # do some changes
   git stash # save changes to stash
   git stash list
   git stash apply # apply stashed changes
+  ```
+
+- [commit --amend](https://smartlogic.io/blog/git-commit-amend/)
+  ```bash
+  git commit --amend -m "fixed commit message" # change last commit message
+  git commit --amend -m --no-edit # add more changes to last commit, keeping the commit message
   ```
 
 #### 1.3 Using SSH keys for GitHub authentication
