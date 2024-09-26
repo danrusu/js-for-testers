@@ -18,7 +18,7 @@
     - [5. Palindrome](#5-palindrome)
     - [6. Count elements repetition within an array that contains strings, store information into an object, sorted by repetition value.](#6-count-elements-repetition-within-an-array-that-contains-strings-store-information-into-an-object-sorted-by-repetition-value)
 
-`ADVICE: Create functions to solve the following tasks and test them. #1 is an exeption.`
+`ADVICE: Create functions to solve the following tasks and test them.`
 
 ### 1. Switch the value stored in two variables
 
