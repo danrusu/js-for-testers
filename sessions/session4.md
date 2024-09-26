@@ -1,8 +1,8 @@
 # Git & GitHub
 
 ```text
-“Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.”
-- Antoine de Saint-Exupéry
+“When you’re curious, you find lots of interesting things to do.”
+- Walt Disney
 ```
 
 ![](../resource/image/octocat.png)
