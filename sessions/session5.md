@@ -15,6 +15,8 @@
     - [2. Create a simple console logger that you can enable/disable](#2-create-a-simple-console-logger-that-you-can-enabledisable)
     - [3. Object key-value switch](#3-object-key-value-switch)
     - [4. Sort object keys alphabetically](#4-sort-object-keys-alphabetically)
+    - [5. Palindrome](#5-palindrome)
+    - [6. Count elements repetition within an array that contains strings, store information into an object, sorted by repetition value.](#6-count-elements-repetition-within-an-array-that-contains-strings-store-information-into-an-object-sorted-by-repetition-value)
 
 `ADVICE: Create functions to solve the following tasks and test them. #1 is an exeption.`
 
@@ -76,7 +78,7 @@ console.log(a, b); // should print 12 7
 
 ### 4. Sort object keys alphabetically
 
-````javascript
+```javascript
 // input
 {
   c: 102,
@@ -91,12 +93,14 @@ console.log(a, b); // should print 12 7
   c: 102,
   d: 103
 }
+```
 
-| Solution                                                                        | Test                                                                                  |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Solution                                                            | Test                                                                      |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | [src/session5/sortObjectKeys.js](../src/session5/sortObjectKeys.js) | [src/session5/sortObjectKeys.js](../test/session5/sortObjectKeys.spec.js) |
 
 ### 5. Palindrome
+
 `Task:` Create a function that returns if a word is a palindrome. We will use the string value of it's input.
 
 ```
@@ -141,4 +145,6 @@ null      | false
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | [src/session5/repetitionMap.js](../src/session5/repetitionMap.js) | [src/session5/repetitionMap.js](../test/session5/repetitionMap.spec.js) |
 
-````
+```
+
+```
