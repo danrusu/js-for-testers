@@ -72,9 +72,9 @@ console.log(a, b); // should print 12 7
 }
 ```
 
-| Solution                                                                        | Test                                                                                  |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [src/session5/objectKeyValueSwitch.js](../src/session5/objectKeyValueSwitch.js) | [src/session5/objectKeyValueSwitch.js](../test/session5/objectKeyValueSwitch.spec.js) |
+| Solution                                                                        | Test                                                                                       |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [src/session5/objectKeyValueSwitch.js](../src/session5/objectKeyValueSwitch.js) | [src/session5/objectKeyValueSwitch.spec.js](../test/session5/objectKeyValueSwitch.spec.js) |
 
 ### 4. Sort object keys alphabetically
 
@@ -95,9 +95,9 @@ console.log(a, b); // should print 12 7
 }
 ```
 
-| Solution                                                            | Test                                                                      |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| [src/session5/sortObjectKeys.js](../src/session5/sortObjectKeys.js) | [src/session5/sortObjectKeys.js](../test/session5/sortObjectKeys.spec.js) |
+| Solution                                                            | Test                                                                           |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| [src/session5/sortObjectKeys.js](../src/session5/sortObjectKeys.js) | [src/session5/sortObjectKeys.spec.js](../test/session5/sortObjectKeys.spec.js) |
 
 ### 5. Palindrome
 
@@ -117,9 +117,9 @@ undefined | false
 null      | false
 ```
 
-| Solution                                                      | Test                                                                |
-| ------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [src/session5/isPalindrome.js](../src/session5/palindrome.js) | [src/session5/isPalindrome.js](../test/session5/palindrome.spec.js) |
+| Solution                                                      | Test                                                                     |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [src/session5/isPalindrome.js](../src/session5/palindrome.js) | [src/session5/isPalindrome.spec.js](../test/session5/palindrome.spec.js) |
 
 ### 6. Count elements repetition within an array that contains strings, store information into an object, sorted by repetition value.
 
@@ -141,6 +141,6 @@ null      | false
 }
 ```
 
-| Solution                                                          | Test                                                                    |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [src/session5/repetitionMap.js](../src/session5/repetitionMap.js) | [src/session5/repetitionMap.js](../test/session5/repetitionMap.spec.js) |
+| Solution                                                          | Test                                                                         |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [src/session5/repetitionMap.js](../src/session5/repetitionMap.js) | [src/session5/repetitionMap.spec.js](../test/session5/repetitionMap.spec.js) |
