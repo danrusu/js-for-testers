@@ -5,7 +5,7 @@
 - Antoine de Saint-Exupéry
 ```
 
-![](../resource/image/octocat.png)
+![](../resource/image/tdd_addiction.jpg)
 
 ## Content
 
@@ -144,7 +144,3 @@ null      | false
 | Solution                                                          | Test                                                                    |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | [src/session5/repetitionMap.js](../src/session5/repetitionMap.js) | [src/session5/repetitionMap.js](../test/session5/repetitionMap.spec.js) |
-
-```
-
-```
