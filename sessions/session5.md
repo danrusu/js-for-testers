@@ -29,9 +29,9 @@ let b = 12;
 console.log(a, b); // should print 12 7
 ```
 
-| Solution                                                           |
-| ------------------------------------------------------------------ |
-| [src/utils/switchVariables.js](../src/session5/switchVariables.js) |
+| Solution                                                              |
+| --------------------------------------------------------------------- |
+| [src/session5/switchVariables.js](../src/session5/switchVariables.js) |
 
 ### 2. Create a simple console logger that you can enable/disable
 
