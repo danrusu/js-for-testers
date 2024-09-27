@@ -16,7 +16,7 @@
     - [3. Object key-value switch](#3-object-key-value-switch)
     - [4. Sort object keys alphabetically](#4-sort-object-keys-alphabetically)
     - [5. Palindrome](#5-palindrome)
-    - [6. Count elements repetition within an array that contains strings, store information into an object, sorted by repetition value.](#6-count-elements-repetition-within-an-array-that-contains-strings-store-information-into-an-object-sorted-by-repetition-value)
+    - [6. Repetition map info from array](#6-repetition-map-info-from-array)
 
 `ADVICE: Create functions to solve the following tasks and test them.`
 
@@ -117,7 +117,9 @@ input     | output
 | ------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | [src/session5/isPalindrome.js](../src/session5/palindrome.js) | [src/session5/isPalindrome.spec.js](../test/session5/palindrome.spec.js) |
 
-### 6. Count elements repetition within an array that contains strings, store information into an object, sorted by repetition value.
+### 6. Repetition map info from array
+
+`Task:` Count elements repetition within an array that contains strings, store information into an object, sorted by repetition value.
 
 ```
 // input
