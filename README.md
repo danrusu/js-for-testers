@@ -65,3 +65,5 @@
   - [Mochawesome reporter](https://www.npmjs.com/package/mochawesome)
 
 - [Chai](https://www.chaijs.com/) - assertion library
+
+- [Istanbul][https://github.com/istanbuljs/nyc] - code coverage tool

@@ -4,7 +4,10 @@
   "description": "Explore, collaborate and learn together.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*.spec.js",
+    "test": "mocha --forbid-only --fail-zero --reporter mochawesome test/**/*.spec.js",
+    "test-coverage": "nyc --reporter=lcov --reporter=text npm test && echo Report: ./coverage/lcov-report/index.html",
+    "test-dev": "mocha test/**/*.spec.js",
+    "test-list": "mocha --dry-run test/**/*.spec.js",
     "s3-debug": "node ./src/session3/debug.js",
     "s2-hd": "node ./src/session2/homework-declarative.js",
     "s2-hi": "node ./src/session2/homework-imperative.js"
@@ -17,6 +20,8 @@
   "devDependencies": {
     "chai": "^4.5.0",
     "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3",
+    "nyc": "^17.1.0",
     "prettier": "^3.3.3"
   },
   "dependencies": {
