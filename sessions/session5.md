@@ -101,7 +101,7 @@ console.log(a, b); // should print 12 7
 
 ### 5. Palindrome
 
-`Task:` Create a function that returns if a word is a palindrome. We will use the string value of it's input.
+`Task:` Create a function that returns if a word (string) is a palindrome.
 
 ```
 input     | output
@@ -109,12 +109,8 @@ input     | output
 'x'       | true
 'maoam'   | true
 'mm'      | true
-121       | true
 'yoyo'    | false
 'ab'      | false
-true      | false
-undefined | false
-null      | false
 ```
 
 | Solution                                                      | Test                                                                     |
