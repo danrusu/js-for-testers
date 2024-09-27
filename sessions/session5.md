@@ -113,9 +113,9 @@ input     | output
 'ab'      | false
 ```
 
-| Solution                                                      | Test                                                                     |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [src/session5/isPalindrome.js](../src/session5/palindrome.js) | [src/session5/isPalindrome.spec.js](../test/session5/palindrome.spec.js) |
+| Solution                                                    | Test                                                                   |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [src/session5/palindrome.js](../src/session5/palindrome.js) | [src/session5/palindrome.spec.js](../test/session5/palindrome.spec.js) |
 
 ### 6. Count elements repetition within an array that contains strings, store information into an object, sorted by repetition value.
 
@@ -125,7 +125,7 @@ input     | output
   'red',
   'green',
   'blue',
-  'red'
+  'red',
   'red',
   'blue'
 ]
