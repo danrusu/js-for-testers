@@ -11,15 +11,22 @@ const TEST_DATA = {
   expectedOutput: {
     a: 100,
     b: 101,
-    d: 103,
     c: 102,
+    d: 103,
   },
 };
 
 describe('sortObjectKeys test', () => {
-  it('should sort object keys alphabetically', () => {
+  it('does not modify key-value pairs', () => {
     expect(sortObjectKeys(TEST_DATA.input)).to.deep.equal(
       TEST_DATA.expectedOutput,
     );
+  });
+
+  it('sorts object keys alphabetically', () => {
+    const objWithSortedKeys = sortObjectKeys(TEST_DATA.input);
+    const sortedKeys = Object.keys(objWithSortedKeys);
+    const expectedKeys = Object.keys(TEST_DATA.expectedOutput);
+    expect(sortedKeys).to.deep.equal(expectedKeys);
   });
 });

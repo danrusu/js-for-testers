@@ -8,7 +8,6 @@ const TEST_DATA = {
     blue: 2,
     red: 3,
   },
-  expectedOutputOrderedKeys: ['green', 'blue', 'red'],
 };
 
 describe('repetitionMap test', () => {
@@ -19,6 +18,6 @@ describe('repetitionMap test', () => {
   });
   it('should return repetition info sorted by values', () => {
     const outputKeys = Object.keys(repetitionMap(TEST_DATA.input));
-    expect(outputKeys).to.deep.equal(TEST_DATA.expectedOutputOrderedKeys);
+    expect(outputKeys).to.deep.equal(Object.keys(TEST_DATA.expectedOutput));
   });
 });
