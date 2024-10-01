@@ -35,13 +35,13 @@
 
 7 Monthly sessions of 2 hours
 
-| #   | Date       | Title                                                 | Topics                                                        | Practice                                      |
-| --- | ---------- | ----------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------- |
-| 1   | 21.05.2024 | [Let's speak JS](./sessions/session1.md)              | Chrome DevTools (Console, Snippets), JS introduction          |                                               |
-| 2   | 23.07.2024 | [Functions & Data Processing](./sessions/session2.md) | Functions, Exceptions, Arrays, Loops                          | [Homework](./sessions/session2.md#4-homework) |
-| 3   | 20.08.2024 | [Node.js & VSCode](./sessions/session3.md)            | VSCode, Node.js, npm                                          | [Homework](./sessions/session3.md#4-homework) |
-| 4   | 17.09.2024 | [Git & Github](./sessions/session4.md)                | Git, GitHub, Bash, vi                                         |                                               |
-| 5   | 01.10.2024 | [Lets's code](./sessions/session5.md)                 | Algorithms, Conditional logging, TDD, exporting with index.js |                                               |
+| #   | Date       | Title                                                 | Topics                                                                      | Practice                                      |
+| --- | ---------- | ----------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------- |
+| 1   | 21.05.2024 | [Let's speak JS](./sessions/session1.md)              | Chrome DevTools (Console, Snippets), JS introduction                        |                                               |
+| 2   | 23.07.2024 | [Functions & Data Processing](./sessions/session2.md) | Functions, Exceptions, Arrays, Loops                                        | [Homework](./sessions/session2.md#4-homework) |
+| 3   | 20.08.2024 | [Node.js & VSCode](./sessions/session3.md)            | VSCode, Node.js, npm                                                        | [Homework](./sessions/session3.md#4-homework) |
+| 4   | 17.09.2024 | [Git & Github](./sessions/session4.md)                | Git, GitHub, Bash, vi                                                       |                                               |
+| 5   | 01.10.2024 | [Lets's code](./sessions/session5.md)                 | Algorithms, Conditional logging, TDD, code coverge, exporting with index.js |                                               |
 
 ### 3. [Events](./events.md)
 
