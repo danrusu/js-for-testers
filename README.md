@@ -61,4 +61,9 @@
 
 - [Mocha](https://mochajs.org/) - unit test framework
 
+  - [CLI usage](https://mochajs.org/#command-line-usage)
+  - [Mochawesome reporter](https://www.npmjs.com/package/mochawesome)
+
 - [Chai](https://www.chaijs.com/) - assertion library
+
+- [Istanbul][https://github.com/istanbuljs/nyc] - code coverage tool
