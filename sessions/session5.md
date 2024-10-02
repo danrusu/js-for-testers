@@ -17,6 +17,7 @@
     - [4. Sort object keys alphabetically](#4-sort-object-keys-alphabetically)
     - [5. Palindrome](#5-palindrome)
     - [6. Repetition map info from array](#6-repetition-map-info-from-array)
+    - [7. Homework](#7-homework)
 
 `ADVICE: Create functions to solve the following tasks and test them.`
 
@@ -142,3 +143,31 @@ input     | output
 | Solution                                                          | Test                                                                         |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | [src/session5/repetitionMap.js](../src/session5/repetitionMap.js) | [src/session5/repetitionMap.spec.js](../test/session5/repetitionMap.spec.js) |
+
+### 7. Homework
+
+```
+Task 1
+Create a function that retuns all factors of a natural number.
+i.e.
+factors(100) = [1, 2, 4, 5, 10, 20, 25, 50, 100]
+
+Task 2
+Create a function that returns information about the length of the word in a text. Words are separated by spaces. Do not count commas or dots. No duplicate for words.
+i.e.
+str = 'If I want to improve my skills, I need to practice. This is a good plan.'
+wordLengthInfo(str) = {
+  1: ['I', 'a'],
+  2: ['If', 'to', 'my', 'is'],
+  4: ['want', 'need', 'This','good', 'plan'],
+  6: ['skills'],
+  7: ['improve'],
+  8 : ['practice']
+}
+
+Task 3
+Creat a function that converts a natural number to binary (base 2).
+i.e.
+toBinary(3) = 11
+toBinary(10) = 1010
+```
