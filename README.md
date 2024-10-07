@@ -22,9 +22,9 @@
 - Code quality - principles (DRY, KISS, YAGNI), tools
 - Web pages - HTML, CSS
 - Test framework - Mocha / Jest / Vitest
+- Assertion library - Chai
 - Gherkin format, validation
 - JSDoc
-- Assertion library - Chai
 - Code coverage - Istanbul / nyc
 - Automation concepts
 - REST, API testing
