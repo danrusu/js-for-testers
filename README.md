@@ -21,7 +21,7 @@
 - Pipeline - GitHub Actions and Workflows, Docker, Bash
 - Code quality - principles (DRY, KISS, YAGNI), tools
 - Web pages - HTML, CSS
-- Test framework - Mocha
+- Test framework - Mocha / Jest / Vitest
 - Gherkin format, validation
 - Assertion library - Chai
 - Code coverage - Istanbul / nyc
