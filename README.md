@@ -23,6 +23,7 @@
 - Web pages - HTML, CSS
 - Test framework - Mocha / Jest / Vitest
 - Gherkin format, validation
+- JSDoc
 - Assertion library - Chai
 - Code coverage - Istanbul / nyc
 - Automation concepts
