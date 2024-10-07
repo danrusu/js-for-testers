@@ -47,7 +47,7 @@
 | 3   | 20.08.2024 | [Node.js & VSCode](./sessions/session3.md)            | VSCode, Node.js, npm                                                        | [Homework](./sessions/session3.md#4-homework) |
 | 4   | 17.09.2024 | [Git & Github](./sessions/session4.md)                | Git, GitHub, Bash, vi                                                       |                                               |
 | 5   | 01.10.2024 | [Lets's code](./sessions/session5.md)                 | Algorithms, Conditional logging, TDD, code coverge, exporting with index.js | [Homework](./sessions/session5.md#7-homework) |
-| 6   | 15.10.2024 | [Publishing](./sessions/session6.md)                  | Publish our first npm package, handle versioning, write tests               |                                               |
+| 6   | 15.10.2024 | [Publishing](./sessions/session6.md)                  | Npm registry, publish npm utilities package, versioning                     |                                               |
 
 ### 3. [Events](./events.md)
 
