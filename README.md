@@ -26,6 +26,7 @@
 - Assertion library - Chai
 - Code coverage - Istanbul / nyc
 - Automation concepts
+- REST, API testing
 - Tools: Postman, Cypress, Playwright
 - TypeScript basics
 
