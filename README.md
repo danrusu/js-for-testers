@@ -14,15 +14,20 @@
 **Topics:**
 
 - Basic coding skills, using JavaScript
-- Chrome Dev Tools
-- VS Code, Node.js, npm
-- Git, Github, Git Bash, Markdown
+- Chrome Dev Tools - Console, Network, Elements, Sources (Snippets), Lighthouse
+- VS Code
+- Node.js, npm, versioning and publishing npm packages
+- Git, Github, Git Bash, Markdown, Git Hooks (husky)
 - Pipeline - GitHub Actions and Workflows, Docker, Bash
 - Code quality - principles (DRY, KISS, YAGNI), tools
 - Web pages - HTML, CSS
-- Test framework - Mocha/Chai
-- Automation
+- Test framework - Mocha
+- Gherkin format, validation
+- Assertion library - Chai
+- Code coverage - Istanbul / nyc
+- Automation concepts
 - Tools: Postman, Cypress, Playwright
+- TypeScript basics
 
 `PS. This series is more a teaser than an end to end training. Everything that I will present is prefixed with IMHO.`
 
@@ -42,6 +47,7 @@
 | 3   | 20.08.2024 | [Node.js & VSCode](./sessions/session3.md)            | VSCode, Node.js, npm                                                        | [Homework](./sessions/session3.md#4-homework) |
 | 4   | 17.09.2024 | [Git & Github](./sessions/session4.md)                | Git, GitHub, Bash, vi                                                       |                                               |
 | 5   | 01.10.2024 | [Lets's code](./sessions/session5.md)                 | Algorithms, Conditional logging, TDD, code coverge, exporting with index.js | [Homework](./sessions/session5.md#7-homework) |
+| 6   | 15.10.2024 | [Publishing](./sessions/session6.md)                  | Publish our first npm package, handle versioning, write tests               |                                               |
 
 ### 3. [Events](./events.md)
 
