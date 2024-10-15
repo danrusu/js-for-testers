@@ -22,10 +22,12 @@
 - Code quality - principles (DRY, KISS, YAGNI), tools
 - Web pages - HTML, CSS
 - Test framework - Mocha / Jest / Vitest
-- Gherkin format, validation
 - Assertion library - Chai
+- Gherkin format, validation
+- JSDoc
 - Code coverage - Istanbul / nyc
 - Automation concepts
+- REST, API testing
 - Tools: Postman, Cypress, Playwright
 - TypeScript basics
 
