@@ -7,6 +7,18 @@
 
 ![](../resource/image/my_old_code.jpg)
 
+## Content
+
+- [Publishing](#publishing)
+  - [Content](#content)
+    - [1. Create NPM account: https://www.npmjs.com/](#1-create-npm-account-httpswwwnpmjscom)
+    - [2. Set `.npmrc` - global (~/.npmrc) or local, in the project root (if local, add it to .gitignore)](#2-set-npmrc---global-npmrc-or-local-in-the-project-root-if-local-add-it-to-gitignore)
+    - [3. New utilities GitHub repository](#3-new-utilities-github-repository)
+    - [4. NPM publish](#4-npm-publish)
+    - [5. Git tags](#5-git-tags)
+    - [6. Npm version](#6-npm-version)
+    - [7. Use the published npm package from this repository code](#7-use-the-published-npm-package-from-this-repository-code)
+
 ### 1. Create NPM account: https://www.npmjs.com/
 
 - you can link your GitHub account for account recovery
