@@ -70,7 +70,7 @@ license: (MIT)
 
 - install dependencies
   ```bash
-  npm i prettier mocha chai@4.x mochawesome
+  npm i -D prettier mocha chai@4.x mochawesome
   ```
   - set the test script in package.json: `mocha --forbid-only --fail-zero --reporter mochawesome test/**/*.spec.js`
 - add `src` and `test` folders
