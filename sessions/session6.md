@@ -53,7 +53,7 @@ version: (1.0.0)
 description: JS utilities
 entry point: (index.js)
 test command:
-git repository: https://github.com/danrusu/demo-util.git
+git repository: https://github.com/danrusu/util.git
 keywords: utilities
 license: (MIT)
 ```
