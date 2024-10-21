@@ -42,14 +42,18 @@
 
 7 Monthly sessions of 2 hours
 
-| #   | Date       | Title                                                 | Topics                                                                      | Practice                                      |
-| --- | ---------- | ----------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------- |
-| 1   | 21.05.2024 | [Let's speak JS](./sessions/session1.md)              | Chrome DevTools (Console, Snippets), JS introduction                        |                                               |
-| 2   | 23.07.2024 | [Functions & Data Processing](./sessions/session2.md) | Functions, Exceptions, Arrays, Loops                                        | [Homework](./sessions/session2.md#4-homework) |
-| 3   | 20.08.2024 | [Node.js & VSCode](./sessions/session3.md)            | VSCode, Node.js, npm                                                        | [Homework](./sessions/session3.md#4-homework) |
-| 4   | 17.09.2024 | [Git & Github](./sessions/session4.md)                | Git, GitHub, Bash, vi                                                       |                                               |
-| 5   | 01.10.2024 | [Lets's code](./sessions/session5.md)                 | Algorithms, Conditional logging, TDD, code coverge, exporting with index.js | [Homework](./sessions/session5.md#7-homework) |
-| 6   | 22.10.2024 | [Publishing](./sessions/session6.md)                  | Npm registry, publish npm utilities package, versioning, Git tags           | [Homework](./sessions/session6.md#8-homework) |
+| #   | Date       | Title                                                 | Topics                                                                                | Practice                                      |
+| --- | ---------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------- |
+| 1   | 21.05.2024 | [Let's speak JS](./sessions/session1.md)              | Chrome DevTools (Console, Snippets), JS introduction                                  |                                               |
+| 2   | 23.07.2024 | [Functions & Data Processing](./sessions/session2.md) | Functions, Exceptions, Arrays, Loops                                                  | [Homework](./sessions/session2.md#4-homework) |
+| 3   | 20.08.2024 | [Node.js & VSCode](./sessions/session3.md)            | VSCode, Node.js, npm                                                                  | [Homework](./sessions/session3.md#4-homework) |
+| 4   | 17.09.2024 | [Git & Github](./sessions/session4.md)                | Git, GitHub, Bash, vi                                                                 |                                               |
+| 5   | 01.10.2024 | [Lets's code](./sessions/session5.md)                 | Algorithms, Conditional logging, TDD, code coverge, exporting with index.js           | [Homework](./sessions/session5.md#7-homework) |
+| 6   | 22.10.2024 | [Publishing](./sessions/session6.md)                  | Npm registry, publish npm utilities package, versioning, Git tags                     | [Homework](./sessions/session6.md#8-homework) |
+| 7   | TBA        | [Pipeline](./sessions/session7.md)                    | GitHub workflows, secrets, branch rules, publish automatically, hooks (Husky), Docker |                                               |
+| 8   | TBA        | [REST](./sessions/session8.md)                        | HTTP requests, Postman, Express App, HTML                                             |                                               |
+| 9   | TBA        | [Async](./sessions/session9.md)                       | Async functions, Promises, fetch API, files I/O, supertest                            |                                               |
+| 10  | TBA        | [Cypress](./sessions/session10.md)                    | E2E testing, Framewok structure, API mocking (intercepts), cy.task, pipeline          |                                               |
 
 ### 3. [Events](./events.md)
 
