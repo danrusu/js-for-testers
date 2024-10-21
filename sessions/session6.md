@@ -149,9 +149,9 @@ git push --delete origin v2.0.0 # delete remote tag
 
 ```bash
 # lets assume the current version is v1.0.0
-npm version patch # creates the next patch version v1.0.1, and a local git tag v1.0.1
-npm version minor # creates the next minor version v1.1.0, and a local git tag v1.1.0
-npm version major # creates the next major version v2.0.0, and a local git tag v2.0.0
+npm version patch # creates the next patch version 1.0.1, and a local git tag v1.0.1
+npm version minor # creates the next minor version 1.1.0, and a local git tag v1.1.0
+npm version major # creates the next major version 2.0.0, and a local git tag v2.0.0
 ```
 
 ### 7. Use the published npm package from this repository code
