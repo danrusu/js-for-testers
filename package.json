@@ -15,8 +15,16 @@
   "keywords": [
     "javascript"
   ],
-  "author": "Dan Rusu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrusu/js-for-testers.git"
+  },
+  "author": "Dan Rusu <danginkgo@yahoo.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danrusu/js-for-testers/issues"
+  },
+  "homepage": "https://github.com/danrusu/js-for-testers#readme",
   "devDependencies": {
     "chai": "^4.5.0",
     "mocha": "^10.7.3",

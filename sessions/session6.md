@@ -18,6 +18,7 @@
     - [5. Git tags](#5-git-tags)
     - [6. Npm version](#6-npm-version)
     - [7. Use the published npm package from this repository code](#7-use-the-published-npm-package-from-this-repository-code)
+    - [8. Homework](#8-homework)
 
 ### 1. Create NPM account: https://www.npmjs.com/
 
@@ -157,4 +158,10 @@ npm version major # creates the next major version v2.0.0, and a local git tag v
 ### 7. Use the published npm package from this repository code
 
 - install `@danginkgo/util` as dependency
-- use the utilities it exports
+- take a look at what was installed to `node_modules` for `@danginkgo/util`
+- use the utilities `@danginkgo/util` exports [here](../src/session6/use-util-package.js)
+
+### 8. Homework
+
+- For the `util` repository, create a GitHub workflow that runs the unit tests (unit-test.yml) for every pull request to master branch or by manual trigger.
+- Add a test badge for the called `Unit tests` for the unit tests workflow
