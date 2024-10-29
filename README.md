@@ -50,9 +50,9 @@
 | 4   | 17.09.2024 | [Git & Github](./sessions/session4.md)                | Git, GitHub, Bash, vi                                                                 |                                               |
 | 5   | 01.10.2024 | [Lets's code](./sessions/session5.md)                 | Algorithms, Conditional logging, TDD, code coverge, exporting with index.js           | [Homework](./sessions/session5.md#7-homework) |
 | 6   | 22.10.2024 | [Publishing](./sessions/session6.md)                  | Npm registry, publish npm utilities package, versioning, Git tags                     | [Homework](./sessions/session6.md#8-homework) |
-| 7   | TBA        | [Pipeline](./sessions/session7.md)                    | GitHub workflows, secrets, branch rules, publish automatically, hooks (Husky), Docker |                                               |
-| 8   | TBA        | [REST](./sessions/session8.md)                        | HTTP requests, Postman, Express App, HTML                                             |                                               |
-| 9   | TBA        | [Async](./sessions/session9.md)                       | Async functions, Promises, fetch API, files I/O, supertest                            |                                               |
+| 7   | TBA        | [REST](./sessions/session7.md)                        | HTTP requests, Postman, Express App, HTML                                             |                                               |
+| 8   | TBA        | [Async](./sessions/session8.md)                       | Async functions, Promises, fetch API, files I/O, supertest                            |                                               |
+| 9   | TBA        | [Pipeline](./sessions/session9.md)                    | GitHub workflows, secrets, branch rules, publish automatically, hooks (Husky), Docker |                                               |
 | 10  | TBA        | [Cypress](./sessions/session10.md)                    | E2E testing, Framewok structure, API mocking (intercepts), cy.task, pipeline          |                                               |
 
 ### 3. [Events](./events.md)
