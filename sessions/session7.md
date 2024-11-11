@@ -7,7 +7,21 @@
 
 ![](../resource/image/server_error.jpg)
 
+## Content
+
+- [APIs \& Postman](#apis--postman)
+  - [Content](#content)
+    - [1. HTTP requests / responses](#1-http-requests--responses)
+    - [2. Dummy TODO web app](#2-dummy-todo-web-app)
+    - [3. Postman](#3-postman)
+    - [4. Newman](#4-newman)
+      - [4.1 Install](#41-install)
+      - [4.2 Run collection](#42-run-collection)
+      - [4.3 Reporters](#43-reporters)
+
 ### 1. HTTP requests / responses
+
+- Request anatomy
 
 ![](../resource/image/http_request.png)
 
@@ -24,7 +38,7 @@
   - **4xx client error** – the request contains bad syntax or cannot be fulfilled.
   - **5xx server error** – the server failed to fulfil an apparently valid request.
 
-### 2. [Dummy web app anatomy](https://github.com/danrusu/node-js-todo-app)
+### 2. [Dummy TODO web app](https://github.com/danrusu/node-js-todo-app)
 
 - [Express.js](https://expressjs.com/)
 - Frontend - html, CSS, js
@@ -46,7 +60,7 @@
 
 - [learning center](https://learning.postman.com/docs/collections/using-newman-cli/command-line-integration-with-newman/)
 
-- install
+#### 4.1 Install
 
 ```bash
 npm install -g newman
@@ -58,22 +72,22 @@ npm install -g newman
 newman run -h
 ```
 
-- run the TODO collection
+#### 4.2 Run collection
 
 ```bash
 newman run TODO.postman_collection.json -e LOCAL.postman_environment.json
 ```
 
-- reporters
+#### 4.3 Reporters
 
-  - install
+- install
 
-  ```bash
-   npm install -g newman-reporter-htmlextra
-  ```
+```bash
+ npm install -g newman-reporter-htmlextra
+```
 
-  - run with reporters enabled
+- run with reporters enabled
 
-  ```bash
-  newman run TODO.postman_collection.json -e TODO.postman_environment.json -r json,cli,htmlextra
-  ```
+```bash
+newman run TODO.postman_collection.json -e TODO.postman_environment.json -r json,cli,htmlextra
+```
