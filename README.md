@@ -51,7 +51,7 @@
 | 5   | 01.10.2024 | [Lets's code](./sessions/session5.md)                 | Algorithms, Conditional logging, TDD, code coverge, exporting with index.js           | [Homework](./sessions/session5.md#7-homework) |
 | 6   | 22.10.2024 | [Publishing](./sessions/session6.md)                  | Npm registry, publish npm utilities package, versioning, Git tags                     | [Homework](./sessions/session6.md#8-homework) |
 | 7   | 12.11.2024 | [APIs & Postman](./sessions/session7.md)              | HTTP requests, Postman, Express App, HTML                                             |                                               |
-| 8   | 17.12.2024        | [Async](./sessions/session8.md)                       | Async functions, Promises, fetch API, files I/O, supertest                            |                                               |
+| 8   | 18.12.2024 | [Async](./sessions/session8.md)                       | Async functions, Promises, fetch API, files I/O, supertest                            |                                               |
 | 9   | TBA        | [Cypress](./sessions/session10.md)                    | E2E testing, Framewok structure, API mocking (intercepts), cy.task, pipeline          |                                               |
 | 10  | TBA        | [Docker & Pipeline](./sessions/session9.md)           | Docker, GitHub workflows, secrets, branch rules, publish automatically, hooks (Husky) |                                               |
 
