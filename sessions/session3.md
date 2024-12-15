@@ -8,7 +8,7 @@ The first method is far more difficult.”    
 - Tony Hoare
 ```
 
-![](../resource/image/backend_frontend.jpg)
+![](../resource/image/_3_backend_frontend.jpg)
 
 ## Content
 

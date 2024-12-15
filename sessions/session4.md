@@ -5,7 +5,7 @@
 - Walt Disney
 ```
 
-![](../resource/image/octocat.png)
+![](../resource/image/_4_octocat.png)
 
 ## Content
 

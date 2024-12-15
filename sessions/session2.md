@@ -5,7 +5,7 @@
 - John Carmack
 ```
 
-![](../resource/image/js_try_catch.jpg)
+![](../resource/image/_2_js_try_catch.jpg)
 
 ## Content
 

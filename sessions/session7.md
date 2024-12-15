@@ -5,7 +5,7 @@
 - Postel's Law (Robustness Principle)
 ```
 
-![](../resource/image/server_error.jpg)
+![](../resource/image/_7_server_error.jpg)
 
 ## Content
 

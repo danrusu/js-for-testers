@@ -5,7 +5,7 @@
 - Cristopher Columbus
 ```
 
-![](../resource/image/works_why.jpg)
+![](../resource/image/_1_works_why.jpg)
 
 ## Content
 

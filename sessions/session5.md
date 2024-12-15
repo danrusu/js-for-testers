@@ -5,7 +5,7 @@
 - Antoine de Saint-Exupéry
 ```
 
-![](../resource/image/tdd_addiction.jpg)
+![](../resource/image/_5_tdd_addiction.jpg)
 
 ## Content
 

@@ -5,7 +5,7 @@
 - Michael Feathers
 ```
 
-![](../resource/image/my_old_code.jpg)
+![](../resource/image/_6_my_old_code.jpg)
 
 ## Content
 
