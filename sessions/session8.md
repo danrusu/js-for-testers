@@ -79,7 +79,7 @@ myFood
   });
 ```
 
-### 2. Async function
+### 2. [Async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 
 `Async function` declaration:
 
@@ -90,7 +90,7 @@ async function name(params) {
 }
 ```
 
-The `await` operator is used to wait for a Promise and get its fulfillment value.
+The [await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) operator is used to wait for a Promise and get its fulfillment value.
 It can only be used inside an async function or at the top level of a module.
 
 Each time when an async function is called, it returns a new Promise
