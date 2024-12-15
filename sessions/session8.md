@@ -16,8 +16,9 @@
     - [3. IIFE - **I**mmediately **I**nvoked **F**unction **E**xpression](#3-iife---immediately-invoked-function-expression)
     - [4. setTimeout](#4-settimeout)
     - [5. Fetch API](#5-fetch-api)
-    - [6. Code first api tests](#6-code-first-api-tests)
-    - [7. Homework](#7-homework)
+    - [6. Files IO](#6-files-io)
+    - [7. Code first api tests](#7-code-first-api-tests)
+    - [8. Homework](#8-homework)
 
 ### 1. [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
@@ -110,6 +111,12 @@ or rejected with an exception uncaught within the async function.
 
 ### 3. [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) - **I**mmediately **I**nvoked **F**unction **E**xpression
 
+Use cases:
+
+- avoid polluting main namespace
+- execute an async function (allows to use await)
+- the module pattern
+
 ```javascript
 (function () {
   // …
@@ -142,9 +149,11 @@ const wait = timeout =>
 
 ### 5. [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
-### 6. [Code first api tests](../test/session8/todo-app.api.spec.js)
+### 6. Files IO
 
-### 7. Homework
+### 7. [Code first api tests](../test/session8/todo-app.api.spec.js)
+
+### 8. Homework
 
 Create API tests for [TODO APP](https://github.com/danrusu/node-js-todo-app) using _fetch_,
 similar to the available [Postman tests](https://github.com/danrusu/node-js-todo-app/tree/master/postman).
