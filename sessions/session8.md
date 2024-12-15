@@ -37,7 +37,7 @@ const isEven = number =>
     if (number % 2 === 0) {
       resolve(true);
     }
-    reject('number is odd');
+    reject(new Error('number is odd'));
   });
 
 let result;
