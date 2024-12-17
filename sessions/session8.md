@@ -9,22 +9,52 @@
 
 ## Content
 
-- [Async](#async)
+- [Async basics](#async-basics)
   - [Content](#content)
-    - [1. Promise](#1-promise)
-    - [2. Async function](#2-async-function)
-    - [3. IIFE - **I**mmediately **I**nvoked **F**unction **E**xpression](#3-iife---immediately-invoked-function-expression)
+    - [1. IIFE - **I**mmediately **I**nvoked **F**unction **E**xpression](#1-iife---immediately-invoked-function-expression)
+    - [2. Promise](#2-promise)
+    - [2.1 **Definition:** `The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.`](#21-definition-the-promise-object-represents-the-eventual-completion-or-failure-of-an-asynchronous-operation-and-its-resulting-value)
+    - [2.2 Blocking vs non-blocking](#22-blocking-vs-non-blocking)
+    - [2.3 Promise states:](#23-promise-states)
+    - [2.4 How to create a Promise object](#24-how-to-create-a-promise-object)
+    - [2.5 Demo 1 - Using `.then`, `.catch`, `.finally`](#25-demo-1---using-then-catch-finally)
+    - [2.6 Demo 2 - Let's order some food](#26-demo-2---lets-order-some-food)
+    - [3. Async function](#3-async-function)
     - [4. setTimeout](#4-settimeout)
     - [5. Files IO](#5-files-io)
     - [6. Fetch API](#6-fetch-api)
     - [7. Code first api tests](#7-code-first-api-tests)
     - [8. Homework](#8-homework)
 
-### 1. [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+### 1. [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) - **I**mmediately **I**nvoked **F**unction **E**xpression
 
-**Definition:** `The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.`
+Use cases:
 
-A Promise is in one of these states:
+- avoid polluting main namespace
+- execute an async function (allows to use await)
+- the module pattern
+
+```javascript
+(function () {
+  // …
+})();
+
+(() => {
+  // …
+})();
+
+(async () => {
+  // …
+})();
+```
+
+### 2. [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+### 2.1 **Definition:** `The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.`
+
+### 2.2 [Blocking vs non-blocking](https://nodejs.org/en/learn/asynchronous-work/overview-of-blocking-vs-non-blocking)
+
+### 2.3 Promise states:
 
 - _pending_: initial state, neither fulfilled nor rejected.
 - _fulfilled_: meaning that the operation was completed successfully.
@@ -32,8 +62,9 @@ A Promise is in one of these states:
 
 A promise is said to be **settled** if it is either fulfilled or rejected, but not pending.
 
+### 2.4 How to create a Promise object
+
 ```javascript
-// simplest way to create a Promise object
 const promise = new Promise((resolve, reject) => {
   // evaluate rejection condition
   if (errorCondition) {
@@ -41,9 +72,36 @@ const promise = new Promise((resolve, reject) => {
   }
   resolve(value); // similar with returning a value
 });
+```
 
-// Demo - Let's order some food
+### 2.5 Demo 1 - Using `.then`, `.catch`, `.finally`
 
+```javascript
+function checkMail() {
+  return new Promise((resolve, reject) => {
+    if (Math.random() > 0.5) {
+      resolve('Mail has arrived');
+    } else {
+      reject(new Error('Failed to arrive'));
+    }
+  });
+}
+
+checkMail()
+  .then(mail => {
+    console.log(mail);
+  })
+  .catch(err => {
+    console.error(err);
+  })
+  .finally(() => {
+    console.log('Experiment completed');
+  });
+```
+
+### 2.6 Demo 2 - Let's order some food
+
+```javascript
 const stock = ['fries', 'burger', 'icecream'];
 
 const isValidOrder = (...order) => {
@@ -80,7 +138,7 @@ myFood
   });
 ```
 
-### 2. [Async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+### 3. [Async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 
 `Async function` declaration:
 
@@ -91,12 +149,12 @@ async function name(params) {
 }
 ```
 
+`Each time when an async function is called, it returns a new Promise
+which will be resolved with the value returned by the async function,
+or rejected with an exception uncaught within the async function.`
+
 The [await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) operator is used to wait for a Promise and get its fulfillment value.
 It can only be used inside an async function or at the top level of a module.
-
-Each time when an async function is called, it returns a new Promise
-which will be resolved with the value returned by the async function,
-or rejected with an exception uncaught within the async function.
 
 ```javascript
 (async () => {
@@ -106,28 +164,6 @@ or rejected with an exception uncaught within the async function.
   } catch (err) {
     console.log(`We are sorry, ${err.message}`);
   }
-})();
-```
-
-### 3. [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) - **I**mmediately **I**nvoked **F**unction **E**xpression
-
-Use cases:
-
-- avoid polluting main namespace
-- execute an async function (allows to use await)
-- the module pattern
-
-```javascript
-(function () {
-  // …
-})();
-
-(() => {
-  // …
-})();
-
-(async () => {
-  // …
 })();
 ```
 
@@ -158,6 +194,14 @@ const wait = timeout =>
   - [example](../src/session8/fs-sync-api.js)
 
 ### 6. [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+- go to [node-js-todo-app])(https://github.com/danrusu/node-js-todo-app) project and start server in dev mode
+
+```bash
+npm run dev
+```
+
+- use fetch api to hit `/health-check` endpoint and get the response - use [fetch.js](../src//session8/fetch.js)
 
 ### 7. [Code first api tests](../test/session8/todo-app.api.spec.js)
 
