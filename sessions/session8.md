@@ -15,8 +15,8 @@
     - [2. Async function](#2-async-function)
     - [3. IIFE - **I**mmediately **I**nvoked **F**unction **E**xpression](#3-iife---immediately-invoked-function-expression)
     - [4. setTimeout](#4-settimeout)
-    - [5. Fetch API](#5-fetch-api)
-    - [6. Files IO](#6-files-io)
+    - [5. Files IO](#5-files-io)
+    - [6. Fetch API](#6-fetch-api)
     - [7. Code first api tests](#7-code-first-api-tests)
     - [8. Homework](#8-homework)
 
@@ -36,7 +36,7 @@ A promise is said to be **settled** if it is either fulfilled or rejected, but n
 // simplest way to create a Promise object
 const promise = new Promise((resolve, reject) => {
   // evaluate rejection condition
-  if (condition) {
+  if (errorCondition) {
     reject(new Error('errorMessage')); // similar with throwing an error
   }
   resolve(value); // similar with returning a value
@@ -133,6 +133,8 @@ Use cases:
 
 ### 4. [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout)
 
+- [event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop)
+
 - create a wait function
 
 ```javascript
@@ -147,9 +149,15 @@ const wait = timeout =>
 })();
 ```
 
-### 5. [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+### 5. Files IO
 
-### 6. Files IO
+- [Promises API](https://nodejs.org/api/fs.html#promises-api) - recommended
+  - [example](../src/session8/fs-promise-api.js)
+- [Callback API](https://nodejs.org/api/fs.html#callback-api)
+- [Synchronous API](https://nodejs.org/api/fs.html#synchronous-api)
+  - [example](../src/session8/fs-sync-api.js)
+
+### 6. [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 ### 7. [Code first api tests](../test/session8/todo-app.api.spec.js)
 

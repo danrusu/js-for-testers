@@ -1,0 +1,5 @@
+{
+  "Promises API": "https://nodejs.org/api/fs.html#promises-api",
+  "Callback API": "https://nodejs.org/api/fs.html#callback-api",
+  "Synchronous API": "https://nodejs.org/api/fs.html#synchronous-api"
+}
