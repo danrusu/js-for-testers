@@ -84,6 +84,7 @@
 | May 28-31  | [CityJS Athens](https://greece.cityjsconf.org/)                               | Athens    |
 | October 16 | [Codecamp_Cluj-NApoca](https://codecamp.ro/conferences/codecamp_cluj-napoca/) | Cluj      |
 | October 30 | [Codecamp_Brasov](https://codecamp.ro/conferences/codecamp_brasov/)           | Brasov    |
+| TBA        | [Romanian Testing Conference](https://romaniatesting.ro/)                     | Cluj      |
 
 ### 4. Resource
 
