@@ -13,7 +13,8 @@
     "s2-hi": "node ./src/session2/homework-imperative.js"
   },
   "keywords": [
-    "javascript"
+    "javascript",
+    "testing"
   ],
   "repository": {
     "type": "git",

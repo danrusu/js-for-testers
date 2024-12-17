@@ -13,3 +13,14 @@
 | October 3    | [Codecamp](https://codecamp.ro/conferences/codecamp-brasov/)          | Brasov    |
 | October 8-10 | [HUSTEF](https://hustef.hu/program_2024/)                             | Budapest  |
 | November 6-7 | [DevCon](https://www.dev-con.ro/)                                     | Bucharest |
+| December 5-6 | [ArmadaJS](https://armada-js.com/)                                    | Novi Sad  |
+
+## 2025
+
+| Date       | Event                                                                         | Location  |
+| ---------- | ----------------------------------------------------------------------------- | --------- |
+| May 20     | [WeTest Athens](https://www.eventora.com/en/Events/wetestathens-2025)         | Athens    |
+| May 21     | [Codecamp_Timisoara](https://codecamp.ro/conferences/codecamp_timisoara/)     | Timisoara |
+| May 28-31  | [CityJS Athens](https://greece.cityjsconf.org/)                               | Athens    |
+| October 16 | [Codecamp_Cluj-NApoca](https://codecamp.ro/conferences/codecamp_cluj-napoca/) | Cluj      |
+| October 30 | [Codecamp_Brasov](https://codecamp.ro/conferences/codecamp_brasov/)           | Brasov    |
