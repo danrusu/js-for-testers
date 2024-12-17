@@ -1,4 +1,4 @@
-# Async
+# Async basics
 
 ```text
 “Simplicity is about subtracting the obvious and adding the meaningful.”
