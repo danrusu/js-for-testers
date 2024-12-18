@@ -32,7 +32,7 @@ Use cases:
 
 - avoid polluting main namespace
 - execute an async function (allows to use await)
-- the module pattern
+- the module pattern; `to read:` [Closures docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 ```javascript
 (function () {
@@ -74,7 +74,7 @@ const promise = new Promise((resolve, reject) => {
 });
 ```
 
-### 2.5 Demo 1 - Using `.then`, `.catch`, `.finally`
+### 2.5 [Demo 1](../src/session8/promise-demo1.js) - Using `.then`, `.catch`, `.finally`
 
 ```javascript
 function checkMail() {
@@ -99,7 +99,7 @@ checkMail()
   });
 ```
 
-### 2.6 Demo 2 - Let's order some food
+### 2.6 [Demo 2 - Let's order some food](../src/session8/promise-demo2.js)
 
 ```javascript
 const stock = ['fries', 'burger', 'icecream'];
@@ -135,6 +135,9 @@ myFood
   })
   .catch(err => {
     console.log(`We are sorry, ${err.message}`);
+  });
+  .finally(() => {
+    console.log('Food ordering finished');
   });
 ```
 
