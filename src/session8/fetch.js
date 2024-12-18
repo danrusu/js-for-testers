@@ -1,7 +1,18 @@
 require('dotenv').config();
 
+function getToDoAuth() {
+  const { TODO_USERNAME: username, TODO_PASSWORD: password } = process.env;
+  if (!username || !password) {
+    return;
+  }
+  const base64Encoded = Buffer.from(`${username}:${password}`).toString(
+    'base64',
+  );
+  return `Basic ${base64Encoded}`;
+}
+
 (async () => {
-  const authorization = process.env.AUTHORIZATION;
+  const authorization = getToDoAuth();
   const response = await fetch('http://localhost:1112/api/health-check', {
     headers: {
       authorization,

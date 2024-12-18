@@ -208,7 +208,16 @@ npm run dev
 
 ### 7. [Code first api tests](../test/session8/todo-app.api.spec.js)
 
+Prerequisites: For TODO APP authorization you need to create a `.env` local file like:
+
+```text
+TODO_USERNAME=tester
+TODO_PASSWORD=123
+```
+
 ### 8. Homework
 
 Create API tests for [TODO APP](https://github.com/danrusu/node-js-todo-app) using _fetch_,
 similar to the available [Postman tests](https://github.com/danrusu/node-js-todo-app/tree/master/postman).
+
+Use example in [todo-app.api.spec.js](../test/session8/todo-app.api.spec.js).
