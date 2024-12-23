@@ -92,7 +92,9 @@
   - [Mocha](https://mochajs.org/)
     - [CLI usage](https://mochajs.org/#command-line-usage)
     - [Mochawesome reporter](https://www.npmjs.com/package/mochawesome)
-
+  - [Jest](https://jestjs.io/)
+  - [Vitest](https://vitest.dev/)
+    
 - [Chai](https://www.chaijs.com/) - assertion library
 
 - [Istanbul](https://github.com/istanbuljs/nyc) - code coverage tool
