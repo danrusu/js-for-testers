@@ -85,7 +85,9 @@
 
 - [W3Schools](https://www.w3schools.com/js/)
 
-- [Eloquent JavaScript](https://eloquentjavascript.net/)
+- Books
+    
+  - [Eloquent JavaScript](https://eloquentjavascript.net/)
 
 - Unit test framework
 
