@@ -3,9 +3,7 @@ const { expect } = require('chai');
 const { getToDoAuth } = require('../test-utils/todo-app-util');
 const { LINKS } = require('./links');
 
-describe('Link validation (SYNC)', function () {
-  this.timeout(20_000);
-
+describe('Test links exist (have corresponding backend endpoints)', function () {
   let authorization;
 
   before(() => {
@@ -15,6 +13,7 @@ describe('Link validation (SYNC)', function () {
   for (const link of LINKS) {
     it(`test link ${link}`, async () => {
       const response = await fetch(link, {
+        method: 'HEAD',
         headers: {
           authorization,
         },

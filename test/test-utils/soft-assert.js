@@ -9,6 +9,10 @@ class SoftAssert {
     this.executed = false;
   }
 
+  /**
+   *
+   * @param {() => void} assertion - an assertion function
+   */
   add(assertion) {
     this.assertions.push(assertion);
   }
@@ -27,6 +31,7 @@ class SoftAssert {
       }
     }
 
+    // assert all assertions have passed
     if (this.errors.length > 0) {
       const errorMessages = this.errors.map(err => JSON.parse(err.message));
       throw new Error(
