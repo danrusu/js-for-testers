@@ -1,21 +1,15 @@
 require('dotenv').config();
 const { expect } = require('chai');
-
-function getToDoAuth() {
-  const { TODO_USERNAME: username, TODO_PASSWORD: password } = process.env;
-  if (!username || !password) {
-    throw new Error('Need credentials for TODO APP in .env');
-  }
-  const base64Encoded = Buffer.from(`${username}:${password}`).toString(
-    'base64',
-  );
-  return `Basic ${base64Encoded}`;
-}
+const { getToDoAuth } = require('../test-utils/todo-app-util');
 
 describe('TODO-APP API test', () => {
+  let authorization;
+
+  before(() => {
+    authorization = getToDoAuth();
+  });
+
   it('healthcheck test', async () => {
-    const authorization = getToDoAuth();
-    console.log(authorization);
     const response = await fetch('http://localhost:1112/api/health-check', {
       //method: 'GET',
       headers: {
@@ -30,4 +24,6 @@ describe('TODO-APP API test', () => {
       status: 'healthy',
     });
   });
+
+  // HOMEWORK
 });
