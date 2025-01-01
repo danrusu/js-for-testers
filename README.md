@@ -1,5 +1,3 @@
-# &#127876; Merry Christmas! &#127876;
-
 # js-for-testers
 
 **_Explore, collaborate and learn together._**
