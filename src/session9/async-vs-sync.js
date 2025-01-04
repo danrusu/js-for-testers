@@ -1,9 +1,4 @@
-const {
-  wait,
-  failPromise,
-  successfulPromise,
-  getDurationMetrics,
-} = require('../utils');
+const { wait, successfulPromise, getDurationMetrics } = require('../utils');
 
 function emptyLoop(n) {
   for (let i = 0; i < n; i++) {
