@@ -12,7 +12,8 @@ function getToDoAuth() {
   return `Basic ${base64Encoded}`;
 }
 
-describe('TODO-APP API test', () => {
+// this tests depends on another repository (can be moved there) - https://github.com/danrusu/node-js-todo-app
+describe.skip('TODO-APP API test', () => {
   it('healthcheck test', async () => {
     const authorization = getToDoAuth();
     console.log(authorization);
