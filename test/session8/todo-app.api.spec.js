@@ -2,7 +2,8 @@ require('dotenv').config();
 const { expect } = require('chai');
 const { getToDoAuth } = require('../test-utils/todo-app-util');
 
-describe('TODO-APP API test', () => {
+// this tests depends on another repository (can be moved there) - https://github.com/danrusu/node-js-todo-app
+describe.skip('TODO-APP API test', () => {
   let authorization;
 
   before(() => {

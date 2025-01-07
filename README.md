@@ -73,6 +73,8 @@
 
 ### 4. Resource
 
+- [learning-resources](https://github.com/danrusu/learning-resources) repository - collection of tutorials links
+
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 - Chrome DevTools
