@@ -8,9 +8,12 @@
     "test-coverage": "nyc --reporter=lcov --reporter=text npm test && echo Report: ./coverage/lcov-report/index.html",
     "test-dev": "mocha test/**/*.spec.js",
     "test-list": "mocha --dry-run test/**/*.spec.js",
+    "test-s9": "mocha test/session9/**/*.spec.js",
     "s3-debug": "node ./src/session3/debug.js",
     "s2-hd": "node ./src/session2/homework-declarative.js",
-    "s2-hi": "node ./src/session2/homework-imperative.js"
+    "s2-hi": "node ./src/session2/homework-imperative.js",
+    "s9-async-sync": "node src/session9/async-vs-sync.js",
+    "s9-settled": "node src/session9/all-vs-settled.js"
   },
   "keywords": [
     "javascript",
