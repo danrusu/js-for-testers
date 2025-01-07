@@ -4,10 +4,11 @@
   "description": "Explore, collaborate and learn together.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --forbid-only --fail-zero --reporter mochawesome test/**/*.spec.js",
+    "test": "mocha --forbid-only --fail-zero --exclude \"test/session{9,8}/**/*\" --reporter mochawesome test/**/*.spec.js",
     "test-coverage": "nyc --reporter=lcov --reporter=text npm test && echo Report: ./coverage/lcov-report/index.html",
     "test-dev": "mocha test/**/*.spec.js",
     "test-list": "mocha --dry-run test/**/*.spec.js",
+    "test-s8": "mocha test/session8/**/*.spec.js",
     "test-s9": "mocha test/session9/**/*.spec.js",
     "s3-debug": "node ./src/session3/debug.js",
     "s2-hd": "node ./src/session2/homework-declarative.js",
