@@ -44,22 +44,38 @@ async function asyncF4() {
   return await Promise.all([asyncF1Promise, asyncF2Promise]);
 }
 
+async function asyncAndSyncF1() {
+  const res1 = wait(700); // ~700ms
+  const res2 = syncF2(); // ~600ms
+  return await Promise.all([res1, res2]);
+}
+
+async function asyncAndSyncF2() {
+  const res1 = syncF2(); // ~600ms
+  const res2 = wait(700); // ~700ms
+  return await Promise.all([res1, res2]);
+}
+
 (async () => {
   const asyncF1Metrics = await getDurationMetrics(asyncF1);
   const asyncF2Metrics = await getDurationMetrics(asyncF2);
-  const asyncF3Metrics = await getDurationMetrics(asyncF3);
-  const asyncF4Metrics = await getDurationMetrics(asyncF4);
-
-  const syncF1Metrics = await getDurationMetrics(syncF1);
-  const syncF2Metrics = await getDurationMetrics(syncF2);
-
   console.log('asyncF1Metrics', asyncF1Metrics);
   console.log('asyncF2Metrics', asyncF2Metrics);
-  console.log('asyncF3Metrics', asyncF3Metrics);
-  console.log('asyncF4Metrics', asyncF4Metrics);
 
-  console.log('--------------------');
+  // const asyncF3Metrics = await getDurationMetrics(asyncF3);
+  // const asyncF4Metrics = await getDurationMetrics(asyncF4);
+  // console.log('asyncF3Metrics', asyncF3Metrics);
+  // console.log('asyncF4Metrics', asyncF4Metrics);
 
-  console.log('syncF1Metrics', syncF1Metrics);
-  console.log('syncF2Metrics', syncF2Metrics);
+  // const syncF1Metrics = await getDurationMetrics(syncF1);
+  // const syncF2Metrics = await getDurationMetrics(syncF2);
+  // console.log('--------------------');
+  // console.log('syncF1Metrics', syncF1Metrics);
+  // console.log('syncF2Metrics', syncF2Metrics);
+
+  // const asyncAndSyncF1Metrics = await getDurationMetrics(asyncAndSyncF1);
+  // const asyncAndSyncF2Metrics = await getDurationMetrics(asyncAndSyncF2);
+  // console.log('--------------------');
+  // console.log('asyncAndSyncF1Metrics', asyncAndSyncF1Metrics);
+  // console.log('asyncAndSyncF2Metrics', asyncAndSyncF2Metrics);
 })();
