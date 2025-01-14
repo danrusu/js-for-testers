@@ -23,7 +23,7 @@ describe('Link validation (ASYNC)', function () {
       return { link, response };
     };
 
-    const linkResponsesPromises = LINKS.map(getLinkResponse); // async requests for all links
+    const linkResponsesPromises = LINKS.map(link => getLinkResponse(link)); // start async requests for all links
 
     const linkResponses = await Promise.all(linkResponsesPromises); // wait for all async requests responses
 

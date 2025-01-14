@@ -11,7 +11,7 @@ describe('Test links exist (have corresponding backend endpoints)', function () 
   });
 
   for (const link of LINKS) {
-    it(`test link ${link}`, async () => {
+    it(`test endpoint ${link} exists`, async () => {
       const response = await fetch(link, {
         method: 'HEAD',
         headers: {

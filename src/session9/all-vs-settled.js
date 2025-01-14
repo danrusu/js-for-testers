@@ -7,7 +7,7 @@ const {
 
 const p1 = successfulPromise('success');
 const p2 = wait(500);
-// const p3 = failPromise();
+const p3 = failPromise('test failed');
 
 async function allSuccesful() {
   return await Promise.all([p1, p2]);
@@ -22,11 +22,11 @@ async function allSettled() {
 }
 
 (async () => {
-  const metrics = await getDurationMetrics(async () => wait(500));
+  //const metrics = await getDurationMetrics(async () => wait(500));
 
   // const metrics = await getDurationMetrics(allSuccesful);
   // const metrics = await getDurationMetrics(all);
-  // const metrics = await getDurationMetrics(allSettled);
+  const metrics = await getDurationMetrics(allSettled);
 
   console.log('metrics', metrics);
 })();

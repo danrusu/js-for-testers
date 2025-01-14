@@ -15,6 +15,7 @@ describe('Link validation (SYNC)', function () {
   for (const link of LINKS) {
     it(`test link ${link}`, async () => {
       const response = await fetch(link, {
+        // method: 'GET', // default
         headers: {
           authorization,
         },
