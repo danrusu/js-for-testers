@@ -61,9 +61,12 @@ Test execution:
 # run tests in headless mode
 cypress run --browser=chrome
 
-# open Cypress Launchpad and run tests in debugging mode
-cypress open --e2e --browser=chrome
+# run tests in headful mode (in browser)
+cypress run --browser=chrome --headed
 
 # run a single test
 cypress run --browser=chrome --spec cypress/e2e/auth.cy.js
+
+# open Cypress Launchpad and run tests in debugging mode
+cypress open --e2e --browser=chrome
 ```
