@@ -7,11 +7,23 @@
 - Walt Disney
 ```
 
+## Content
+
+- [js-for-testers](#js-for-testers)
+  - [Content](#content)
+  - [Goal: Build some useful skills and have fun.](#goal-build-some-useful-skills-and-have-fun)
+  - [Important - Anonymous Feedback](#important---anonymous-feedback)
+  - [Topics summary](#topics-summary)
+    - [1. Prerequisites](#1-prerequisites)
+    - [2. Structure](#2-structure)
+    - [3. Events - 2025](#3-events---2025)
+    - [4. Resource](#4-resource)
+
 ## Goal: Build some useful skills and have fun.
 
-## Important - [Anonymous Feedback Tool](https://anonymous-feedback-f9a50211e30c.herokuapp.com/)
+## Important - [Anonymous Feedback](https://testutils.com/feedback)
 
-**Topics:**
+## Topics summary
 
 - Basic coding skills, using JavaScript
 - Chrome Dev Tools - Console, Network, Elements, Sources (Snippets), Lighthouse
@@ -59,9 +71,7 @@
 | 13  | TBA        | [Streams](./sessions/session13.md)                    | Node.js streams usage                                                                                                |                                                |
 | 14  | TBA        | [Docker & Pipeline](./sessions/session14.md)          | Docker, GitHub workflows, secrets, branch rules, publish automatically, hooks (Husky)                                |                                                |
 
-### 3. Events
-
-#### 2025
+### 3. Events - 2025
 
 | Date       | Event                                                                         | Location  |
 | ---------- | ----------------------------------------------------------------------------- | --------- |
