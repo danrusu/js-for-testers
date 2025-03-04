@@ -36,7 +36,7 @@
 ### 1. Prerequisites
 
 - Chrome browser
-- [NodeJS](https://nodejs.org/en/download), preferable the latest LTS version - 20.12.2
+- [NodeJS](https://nodejs.org/en/download), preferable the latest LTS version - 20.14.0
 
 ### 2. Structure
 
