@@ -53,10 +53,10 @@
 | 7   | 12.11.2024 | [APIs & Postman](./sessions/session7.md)              | HTTP requests, Postman, Express App, HTML                                                                            |                                                |
 | 8   | 18.12.2024 | [Async basics](./sessions/session8.md)                | Async functions, Promises, fetch API, files I/O                                                                      | [Homework](./sessions/session8.md/#8-homework) |
 | 9   | 14.01.2025 | [Async fun](./sessions/session9.md)                   | Promise.all, Promise.allSettled, parallel I/O demo, links validation, for await of, async array mapping, soft assert |                                                |
-| 10  | 18.02.2025 | [Cypress fundamentals](./sessions/session10.md)       | E2E testing, Framewok structure, cy.task, UI simple flow validation                                                  |                                                |   
-| 11  | TBA        | [Playwright](./sessions/session11.md)                 |                                                                                                                      |                                                |
-| 12  | TBA        | [Test frameworks](./sessions/session12.md)            | Mocha, Vitest, use cases                                                                                             |                                                |
-| 13  | TBA        | [Streams](./sessions/session13.md)                    | Node.js streams usage                                                                                                |                                                |
+| 10  | 18.02.2025 | [Cypress fundamentals](./sessions/session10.md)       | E2E testing, Framewok structure, cy.task, UI simple flow validation                                                  |                                                |
+| 11  | TBA        | [Cypress advanced](./sessions/session11.md)           |                                                                                                                      |                                                |
+| 12  | TBA        | [Playwright](./sessions/session12.md)                 | Node.js streams usage                                                                                                |                                                |
+| 13  | TBA        | [Test frameworks](./sessions/session13.md)            | Mocha, Vitest, use cases                                                                                             |                                                |
 | 14  | TBA        | [Docker & Pipeline](./sessions/session14.md)          | Docker, GitHub workflows, secrets, branch rules, publish automatically, hooks (Husky)                                |                                                |
 
 ### 3. Events
