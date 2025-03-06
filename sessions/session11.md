@@ -1,4 +1,4 @@
-# Playwright
+# Cypress Advanced
 
 ```text
 

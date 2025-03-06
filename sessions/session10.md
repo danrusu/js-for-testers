@@ -1,4 +1,4 @@
-# Cypress
+# Cypress Fundamentals
 
 ```text
 “If you touch one thing with deep awareness, you touch everything.”
