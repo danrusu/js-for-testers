@@ -4,6 +4,24 @@
 "La POM-ul lăudat să nu te duci cu sacul."
 ```
 
+## Content
+
+- [Cypress Advanced](#cypress-advanced)
+  - [Content](#content)
+    - [1. **P**age **O**bject **M**odel (POM)](#1-page-object-model-pom)
+      - [1.1 Selectors: Css vs. Xpath](#11-selectors-css-vs-xpath)
+      - [1.1.1 Css selectors](#111-css-selectors)
+      - [1.1.2 XPath selectors](#112-xpath-selectors)
+      - [1.2 Chrome DevTools utilities](#12-chrome-devtools-utilities)
+      - [1.3 Document functions for selecting elements](#13-document-functions-for-selecting-elements)
+    - [2. Cypress advanced](#2-cypress-advanced)
+      - [2.1 cy.intercept](#21-cyintercept)
+      - [2.2 cy.session](#22-cysession)
+      - [2.3 cy.request](#23-cyrequest)
+      - [2.4 Cypress environment variables](#24-cypress-environment-variables)
+      - [2.5 Reporter - Mocha Awesome](#25-reporter---mocha-awesome)
+      - [2.6 Configuration](#26-configuration)
+
 ### 1. **P**age **O**bject **M**odel (POM)
 
 `POM (web elements and behavior) improves code maintenance by separating the page model and the tests.`
@@ -38,6 +56,7 @@ Read more about `data-* ` attributes [here](https://developer.mozilla.org/en-US/
 #### 1.2 Chrome DevTools utilities
 
 ```javascript
+// warning: $ can be overwritten if jQuery is used
 $('cssSelector'); // select first element by cssSelector
 $$('cssSelector'); // select all elements by cssSelector
 $x('XPathSelector'); // select all elements using XPath
@@ -52,8 +71,8 @@ document.querySelectorAll('cssSelector'); // select all elements by cssSelector
 
 // custom
 document.getElementById('elementId');
-document.getElementsByTagName('tagName');
 document.getElementsByClassName('className');
+document.getElementsByTagName('tagName');
 ```
 
 1.4 Simple page object model example (pseudocode)
@@ -93,14 +112,31 @@ assertUserHomePage(driver); // test bussiness logic
 Examples:
 
 - [poc-local-html-intecept.cy.js](https://github.com/danrusu/node-js-todo-app/blob/master/cypress/e2e/poc-local-html-intecept.cy.js)
+
 - [poc-local-html](https://github.com/danrusu/node-js-todo-app/blob/master/cypress/e2e/poc-local-html.cy.js)
 
 #### 2.2 [cy.session](https://docs.cypress.io/api/commands/session)
 
-#### 2.2 [cy.request](https://docs.cypress.io/api/commands/request)
+- [Documentation](https://docs.cypress.io/api/cypress-api/session)
+
+Example:
+
+- [regression.cy.js](https://github.com/danrusu/node-js-todo-app/blob/master/cypress/e2e/regression.cy.js)
+
+#### 2.3 [cy.request](https://docs.cypress.io/api/commands/request)
 
 Example:
 
 - [auth.api.cy.js](https://github.com/danrusu/node-js-todo-app/blob/master/cypress/e2e/auth.api.cy.js)
 
 #### 2.4 [Cypress environment variables](https://docs.cypress.io/app/references/environment-variables)
+
+#### 2.5 [Reporter - Mocha Awesome](https://github.com/LironEr/cypress-mochawesome-reporter)
+
+#### 2.6 [Configuration](https://docs.cypress.io/app/references/configuration)
+
+- [Global](https://docs.cypress.io/app/references/configuration)
+- [Timeouts](https://docs.cypress.io/app/references/configuration#Timeouts)
+- [Folders / Files](https://docs.cypress.io/app/references/configuration#Folders--Files)
+- [Screenshots](https://docs.cypress.io/app/references/configuration#Screenshots) & [Videos](https://docs.cypress.io/app/references/configuration#Videos)
+- [E2E tests options](https://docs.cypress.io/app/references/configuration#e2e)
