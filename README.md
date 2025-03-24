@@ -25,34 +25,31 @@
 
 ## Topics summary
 
-- Basic coding skills, using JavaScript
+- Develop basic coding skills, using JavaScript
 - Chrome Dev Tools - Console, Network, Elements, Sources (Snippets), Lighthouse
 - VS Code
 - Node.js, npm, versioning and publishing npm packages
 - Git, Github, Git Bash, Markdown, Git Hooks (husky)
 - Pipeline - GitHub Actions and Workflows, Docker, Bash
-- Code quality - principles (DRY, KISS, YAGNI), tools
-- Web pages - HTML, CSS
-- Test framework - Mocha / Jest / Vitest
+- Test framework - Mocha / Vitest
 - Assertion library - Chai
-- Gherkin format, validation
 - JSDoc
-- Code coverage - Istanbul / nyc
 - Automation concepts
+- Code quality - principles (DRY, KISS, YAGNI), tools
+- Code coverage - Istanbul / nyc
+- Web pages - HTML, CSS
 - REST, API testing
 - Tools: Postman, Cypress, Playwright
-- TypeScript basics
+- TypeScript basics, resources
 
 `PS. This series is more a teaser than an end to end training. Everything that I will present is prefixed with IMHO.`
 
 ### 1. Prerequisites
 
-- Chrome browser
-- [NodeJS](https://nodejs.org/en/download), preferable the latest LTS version - 20.14.0
+- Chrome browser (latest)
+- [NodeJS](https://nodejs.org/en/download), preferable the latest LTS version - 22.14.0
 
 ### 2. Structure
-
-7 Monthly sessions of 2 hours
 
 | #   | Date       | Title                                                 | Topics                                                                                                                                                      | Practice                                        |
 | --- | ---------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
@@ -84,9 +81,9 @@
 
 ### 4. Resource
 
-- [learning-resources](https://github.com/danrusu/learning-resources) repository - collection of tutorials links
-
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+- [W3Schools](https://www.w3schools.com/js/) - useful for fundamentals and reference
 
 - Chrome DevTools
 
@@ -94,20 +91,28 @@
   - [Developer news - Jecelyn Yeen](https://www.linkedin.com/in/jecfish/)
   - [Freeze screen & inspect disappearing elements](https://www.youtube.com/watch?v=Qzmb9bdNzZ4)
 
-- [W3Schools](https://www.w3schools.com/js/)
-
 - Books
 
   - [Eloquent JavaScript](https://eloquentjavascript.net/)
 
-- Unit test framework
+- Unit test frameworks
 
   - [Mocha](https://mochajs.org/)
     - [CLI usage](https://mochajs.org/#command-line-usage)
     - [Mochawesome reporter](https://www.npmjs.com/package/mochawesome)
-  - [Jest](https://jestjs.io/)
   - [Vitest](https://vitest.dev/)
+  - [Jest](https://jestjs.io/)
 
 - [Chai](https://www.chaijs.com/) - assertion library
 
 - [Istanbul](https://github.com/istanbuljs/nyc) - code coverage tool
+
+- **Test automation frameworks**
+
+  - [Cypress](https://www.cypress.io/)
+  - [Playwright](https://playwright.dev/)
+  - [WebdriverIO](https://webdriver.io/)
+  - [Puppeteer](https://pptr.dev/)
+  - [Postman](https://www.postman.com/)
+
+- [learning-resources](https://github.com/danrusu/learning-resources) repository - grouped tutorials links.
