@@ -4,6 +4,8 @@
 "La POM-ul lăudat să nu te duci cu sacul."
 ```
 
+![](../resource/image/_11_pom.png)
+
 ## Content
 
 - [Cypress Advanced](#cypress-advanced)

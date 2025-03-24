@@ -5,9 +5,11 @@
 - Thich Nhat Hanh
 ```
 
+![](../resource/image/_10_cypress.png)
+
 ## Content
 
-- [Cypress](#cypress)
+- [Cypress Fundamentals](#cypress-fundamentals)
   - [Content](#content)
     - [1. Explore new TODO App](#1-explore-new-todo-app)
     - [2. Useful npm packages](#2-useful-npm-packages)
