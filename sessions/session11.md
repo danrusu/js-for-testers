@@ -122,7 +122,7 @@ Examples:
 
 Example:
 
-- [regression.cy.js](https://github.com/danrusu/node-js-todo-app/blob/master/cypress/e2e/regression.cy.js)
+- [user-sessions.cy.js](https://github.com/danrusu/node-js-todo-app/blob/master/cypress/e2e/user-sessions.cy.js)
 
 #### 2.3 [cy.request](https://docs.cypress.io/api/commands/request)
 
