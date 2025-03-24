@@ -21,6 +21,7 @@
       - [2.4 Cypress environment variables](#24-cypress-environment-variables)
       - [2.5 Reporter - Mocha Awesome](#25-reporter---mocha-awesome)
       - [2.6 Configuration](#26-configuration)
+    - [3. Homework](#3-homework)
 
 ### 1. **P**age **O**bject **M**odel (POM)
 
@@ -140,3 +141,7 @@ Example:
 - [Folders / Files](https://docs.cypress.io/app/references/configuration#Folders--Files)
 - [Screenshots](https://docs.cypress.io/app/references/configuration#Screenshots) & [Videos](https://docs.cypress.io/app/references/configuration#Videos)
 - [E2E tests options](https://docs.cypress.io/app/references/configuration#e2e)
+
+### 3. Homework
+
+Think about what you would test as regression for the TODO App and add extend [regression.cy.js](https://github.com/danrusu/node-js-todo-app/blob/master/cypress/e2e/regression.cy.js) or create new test files using Cypress.
