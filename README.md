@@ -107,6 +107,8 @@
 
 - [Istanbul](https://github.com/istanbuljs/nyc) - code coverage tool
 
+- [Sinon](https://sinonjs.org/) - mocks, spies, stubs
+
 - **Test automation frameworks**
 
   - [Cypress](https://www.cypress.io/)
