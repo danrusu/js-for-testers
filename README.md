@@ -73,7 +73,7 @@
 | Date       | Event                                                                         | Location  |
 | ---------- | ----------------------------------------------------------------------------- | --------- |
 | May 20     | [WeTest Athens](https://www.eventora.com/en/Events/wetestathens-2025)         | Athens    |
-| May 21     | [Codecamp_Timisoara](https://codecamp.ro/conferences/codecamp_timisoara/)     | Timisoara |
+| May 21     | [Codecamp_Timisoara](https://codecamp.ro/conferences/codecamp-timisoara-2025) | Timisoara |
 | May 28-31  | [CityJS Athens](https://greece.cityjsconf.org/)                               | Athens    |
 | June 12,16 | [JSNation](https://jsnation.com/)                                             | Amsterdam |
 | October 16 | [Codecamp_Cluj-Napoca](https://codecamp.ro/conferences/codecamp_cluj-napoca/) | Cluj      |
